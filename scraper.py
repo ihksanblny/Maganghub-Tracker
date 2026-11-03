@@ -42,10 +42,13 @@ BUMN_TARGET_KEYWORDS = [
     "semen indonesia", "semen padang", "semen gresik", "semen tonasa", "perumnas",
     "krakatau steel", "krakatau medika",
     
-    # Transportasi, Logistik & Aviasi
-    "kereta api indonesia", "kai", "kai bandara", "kai logistik", "kai wisata",
-    "pelindo", "pelabuhan indonesia", "asdp indonesia ferry", "pelni",
-    "garuda indonesia", "citilink", "gmf aeroasia", "angkasa pura",
+    # Transportasi, Logistik & Aviasi (Garuda Group, InJourney, AirNav, dll.)
+    "garuda", "garuda indonesia", "citilink", "gmf", "aero asia", "aerotrans",
+    "aero systems", "aero wisata", "aerofood", "gapura angkasa",
+    "injourney", "integrasi aviasi solusi", "angkasa pura", "angkasa pura suport", "angkasa pura solusi",
+    "airnav", "lppnpi", "pelita air", "bandara sultan hasanuddin",
+    "kereta api indonesia", "kai", "kai bandara", "kai logistik", "kai wisata", "inka",
+    "pelindo", "pelabuhan indonesia", "asdp", "asdp indonesia ferry", "pelni", "pengerukan indonesia",
     "damri", "pos indonesia", "pos logistik",
     
     # Telekomunikasi & Teknologi

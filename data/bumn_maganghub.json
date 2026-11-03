@@ -21,7 +21,7 @@
     "vacancies": 200,
     "city": "Kota Adm. Jakarta Timur",
     "address": "Jl. DI. Panjaitan No.9-10, RT.1/RW.11, Cipinang Cempedak, Kecamatan Jatinegara, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13340",
-    "description": "$2f",
+    "description": "$36",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/2fbd52f5-d18c-4703-8668-1f7e78b737b2/6970a20182613.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-pt-wijaya-karya-2fbd52f5-d18c-4703-8668-1f7e78b737b2"
   },
@@ -221,6 +221,19 @@
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-infomedia-nusantara-edfc6a91-7cbd-4794-aa5d-3d9cc0340e24"
   },
   {
+    "id": "28ba2b06-e45e-40a1-8f5f-8b5b7dfde81e",
+    "name": "PT. Integrasi Aviasi Solusi",
+    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "integrasi aviasi solusi",
+    "vacancies": 60,
+    "city": "Kota Tangerang",
+    "address": "Komplek Gedung 528 Terminal Kargo\nBandara Soekarno Hatta, Tangerang Banten 19120",
+    "description": "Visi : Menjadi penyedia  layanan kargo dan logistik terintegrasi bandar udara yang terbaik dan terpercaya di kawasan.\nMisi : \n- Memberikan layanan kargo dan logistik terbaik kepada pelanggan yang mengutamakan keamanan dan standar layanan\n- Memberikan keuntungan maksimal bagi pemegang saham sesuai dengan Good Corporate Governance\n- Mengutamakan profesionalisme dan produktivitas dengan menciptakan lingkungan kerja yang mendukung\n- Mengutamakan pengelolaan kargo yang ramah lingkungan dan memberdayakan masyarakat sekitar",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/28ba2b06-e45e-40a1-8f5f-8b5b7dfde81e/66221ae72e8b9.png",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-integrasi-aviasi-solusi-28ba2b06-e45e-40a1-8f5f-8b5b7dfde81e"
+  },
+  {
     "id": "5ce1f3ce-919d-4ea6-97e4-2c5ab3ed9285",
     "name": "Pelindo Multi Terminal",
     "type": "BUMN Induk (Persero / Perum)",
@@ -255,7 +268,7 @@
     "vacancies": 58,
     "city": "Kab. Gresik",
     "address": "JL. VETERAN NO 129 GRESIK",
-    "description": "$31",
+    "description": "$27",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/f0ed8ecf-2f35-48c7-b933-23c9e7a6f1c7/69e5ee14e009e.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-semen-indonesia-logistik-f0ed8ecf-2f35-48c7-b933-23c9e7a6f1c7"
   },
@@ -346,16 +359,29 @@
     "vacancies": 48,
     "city": "Kota Adm. Jakarta Selatan",
     "address": "Gedung The Tower Jl. Gatot Subroto No.27",
-    "description": "$30",
+    "description": "$32",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/a4bf4eb0-94fa-4f57-aab9-22de7fb4dc32/60504f360986b.jpeg",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-bank-syariah-indonesia-tbk-019f4ac5-f358-72b1-a136-74878ac6f816"
+  },
+  {
+    "id": "3bf04fa0-1b02-4152-ab61-79531fda6375",
+    "name": "Pelita Air Service",
+    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "cluster": "Energi, Minyak & Tambang",
+    "matched_keyword": "pelita air",
+    "vacancies": 48,
+    "city": "Kota Adm. Jakarta Pusat",
+    "address": "Jl. Abdul Muis No. 52 -56 A\nJakarta 10160, Indonesia",
+    "description": "Founded in 1970 in Indonesia, PT Pelita Air Service (PAS) has a rich history rooted in the exploration and exploitation of oil and natural gas fields. Our company is dedicated to providing top-notch services in the aviation industry.",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/3bf04fa0-1b02-4152-ab61-79531fda6375/690461c20b2a4.png",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pelita-air-service-3bf04fa0-1b02-4152-ab61-79531fda6375"
   },
   {
     "id": "85094176-f995-4118-99d7-b8ab3490d876",
     "name": "Perum Percetakan Uang Ri",
     "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Manufaktur, Pertahanan & Jasa Lainnya",
-    "matched_keyword": "peruri",
+    "matched_keyword": "percetakan uang",
     "vacancies": 46,
     "city": "Kab. Karawang",
     "address": "Desa Parung Mulya, Ciampel, Karawang, Jawa Barat",
@@ -368,7 +394,7 @@
     "name": "Perusahaan Perseroan (Persero) PT. Pelayaran Nasional Indonesia",
     "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
-    "matched_keyword": "pelni",
+    "matched_keyword": "pelayaran nasional indonesia",
     "vacancies": 45,
     "city": "Kota Adm. Jakarta Pusat",
     "address": "Jl. Gajah Mada No.14, RT.6/RW.2, Petojo Utara, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta",
@@ -445,8 +471,8 @@
     "id": "06a78f24-4675-46e1-bb56-20efb6461a5e",
     "name": "Perusahaan Perseroan (Persero) PT Industri Kereta Api",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN / BUMD Lainnya",
-    "matched_keyword": null,
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "industri kereta api",
     "vacancies": 40,
     "city": "Kota Madiun",
     "address": "Jalan Yos Sudarso No. 71 Madiun\nJawa Timur",
@@ -632,7 +658,7 @@
     "vacancies": 30,
     "city": "Kota Adm. Jakarta Selatan",
     "address": "South Quarter Tower A lantai 19-20, \nJl. R.A. Kartini Kav. 8",
-    "description": "$30",
+    "description": "$26",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/605a54fb-3f6a-4fbe-b78d-8c542a8ef9ce/61b721acc21cd.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-semen-indonesia-persero-tbk-605a54fb-3f6a-4fbe-b78d-8c542a8ef9ce"
   },
@@ -648,6 +674,19 @@
     "description": "PT Surya Energi Indotama (SEI) berdiri pada tanggal 6 Desember 2007 dan diambil alih sebagai anak perusahaan dari PT Len Industri (Persero) pada 14 Januari 2009. SEI merupakan perusahaan pionir dan terpercaya di bidang energi baru terbarukan, khususnya energi surya di Indonesia.\n\nSEI memiliki pengalaman skala kecil hingga besar yang didukung dengan kelas dunia. Dengan semangat menjadi perusahaan total solusi di bidang Energi Baru Terbarukan dan Konservasi Energi, SEI berperan sebagai Engineering, Procurement, Construction (EPC) dan Investor Energi Baru Terbarukan sebagai solusi terbaik bagi masyarakat sesuai dengan kebutuhan.",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/38475f81-96fc-4c0b-84e0-aca85c4c2f8c/63312831af591.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/surya-energi-indotama-38475f81-96fc-4c0b-84e0-aca85c4c2f8c"
+  },
+  {
+    "id": "783f690c-2a42-40be-bfb8-dd2222930616",
+    "name": "PT Ias Support Indonesia",
+    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "ias",
+    "vacancies": 29,
+    "city": "Kota Tangerang",
+    "address": "Bandar Udara Internasional Soekarno Hatta, Terminal 3 Domestik Gedung Perkantoran Lantai 4",
+    "description": "$2f",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/783f690c-2a42-40be-bfb8-dd2222930616/67a4e053a579a.png",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-ias-support-indonesia-783f690c-2a42-40be-bfb8-dd2222930616"
   },
   {
     "id": "019f1644-b132-7036-a937-aed61d90d1ab",
@@ -723,7 +762,7 @@
     "vacancies": 28,
     "city": "Kota Adm. Jakarta Pusat",
     "address": "Grha BNI, Jl. Jenderal Sudirman Kavling 1, Desa/Kelurahan Karet Tengsin, Kec. Tanah Abang, Kota Adm. Jakarta Pusat, Provinsi DKI\nJakarta",
-    "description": "$2f",
+    "description": "$35",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/d9165884-e603-4ae1-98fc-f646d07273ca/63983081c253b.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-d9165884-e603-4ae1-98fc-f646d07273ca"
   },
@@ -821,7 +860,7 @@
   {
     "id": "01a03282-0184-717e-82f2-7ca689aa4850",
     "name": "PT. Angkasa Pura Indonesia",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
     "matched_keyword": "angkasa pura",
     "vacancies": 26,
@@ -832,11 +871,24 @@
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-angkasa-pura-indonesia-01a03282-0184-717e-82f2-7ca689aa4850"
   },
   {
+    "id": "b4d433b6-a4ea-4e27-809c-3a699999959f",
+    "name": "PT. Gapura Angkasa",
+    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "gapura angkasa",
+    "vacancies": 26,
+    "city": "Kota Adm. Jakarta Pusat",
+    "address": "Gd. GAPURA jl. Merpati 3 Kota Baru Bandar Kemayoran Blok 12 Kav 7 Gunung Sahari Selatan Kemayoran",
+    "description": "Jasa Ground Handling",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/9a53f14b-0f04-4380-aa60-3beddab95d95/5e68b2c9e7af4.png",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-gapura-angkasa-b4d433b6-a4ea-4e27-809c-3a699999959f"
+  },
+  {
     "id": "d5c9bf39-b11e-41a8-b219-3f704aac1899",
     "name": "Perum Percetakan Uang Ri",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN / BUMD Lainnya",
-    "matched_keyword": null,
+    "cluster": "Manufaktur, Pertahanan & Jasa Lainnya",
+    "matched_keyword": "percetakan uang",
     "vacancies": 26,
     "city": "Kota Adm. Jakarta Selatan",
     "address": "Jl. Palatehan No. 4, Blok K-V, Kebayoran Baru, Jakarta 12160",
@@ -1017,8 +1069,8 @@
     "id": "2b4e85c2-1760-4397-9ae3-05552b1c9468",
     "name": "Perusahaan Perseroan (Persero) PT Asuransi Jasa Indonesia",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN / BUMD Lainnya",
-    "matched_keyword": null,
+    "cluster": "Perbankan & Jasa Keuangan",
+    "matched_keyword": "asuransi jasa indonesia",
     "vacancies": 21,
     "city": "Kota Adm. Jakarta Pusat",
     "address": "Jl. Menteng Raya No. 21, RT 001/RW 010, Kebon Sirih, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10340",
@@ -1183,6 +1235,19 @@
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/sinergi-gula-nusantara-f4872316-36f8-4a1e-8e26-0ed7c60c5cd1"
   },
   {
+    "id": "750c81a4-caa5-407b-928f-a0fa44b90558",
+    "name": "Bandara Sultan Hasanuddin Makassar",
+    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "bandara sultan hasanuddin",
+    "vacancies": 18,
+    "city": "Kab. Maros",
+    "address": "Jl Bandara Lama No 1 Mandai",
+    "description": "Bandar Udara Internasional Sultan Hasanuddin, adalah bandar udara yang melayani penerbangan domestik dan internasional untuk daerah Makassar dan sekitarnya",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/750c81a4-caa5-407b-928f-a0fa44b90558/69368a8d093a4.png",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/bandara-sultan-hasanuddin-makassar-750c81a4-caa5-407b-928f-a0fa44b90558"
+  },
+  {
     "id": "dbda2239-75b3-4832-80e7-987e09c99d6d",
     "name": "Kantor Wilayah Bank Rakyat Indonesia (Persero) Tbk, PT",
     "type": "BUMN Induk (Persero / Perum)",
@@ -1272,6 +1337,19 @@
     "description": "PT Perkebunan Nusantara I Regional 2 bergerak dibidang agrobisnis dan industri antara lain pembudidayaan tanaman, pengelolaan dan penjualan produk karet, teh, kopi dan aneka tanaman keras. Dengan misi menjadi perusahaan agrobisnis perkebunan yang tangguh serta mampu memberikan kesejahteraan bagi stakeholder dan kontribusi yang optimal kepada negara.",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/12908564-a412-464a-a89f-f59f03c0fc5b/6888fe905e064.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-perkebunan-nusantara-i-12908564-a412-464a-a89f-f59f03c0fc5b"
+  },
+  {
+    "id": "01a15862-b2ac-71e7-bf67-00828ffe95dd",
+    "name": "PT. Gapura Angkasa Cabang Bandara Soekarno Hatta",
+    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "gapura angkasa",
+    "vacancies": 17,
+    "city": "Kota Tangerang",
+    "address": "Bandara Soekarno Hatta, Terminal 3 Perkantoran Airlines Lt. 3",
+    "description": "Airport Services",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/931b5969-cebf-4c22-a71d-b184a35ecb0e/5d969d4b5c4c0.jpeg",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-gapura-angkasa-cabang-bandara-soekarno-hatta-01a15862-b2ac-71e7-bf67-00828ffe95dd"
   },
   {
     "id": "01a10a36-96d0-7290-b12d-17d68f808e8a",
@@ -1378,15 +1456,28 @@
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/telkom-regional-iii-witel-bandung-4eb6fee6-50db-4717-b6e8-cf8a16b021e5"
   },
   {
+    "id": "019f359f-73e7-731e-b6fd-4862321743c7",
+    "name": "PT Aero Systems Indonesia",
+    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "aero systems indonesia",
+    "vacancies": 15,
+    "city": "Kota Adm. Jakarta Pusat",
+    "address": "Gedung Garuda Lt. 1 Jl. Gunung Sahari Raya No. 52 Gunung Sahari Selatan - Kemayoran Jakarta Pusat, DKI Jakarta",
+    "description": "",
+    "logoUrl": "",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-aero-systems-indonesia-019f359f-73e7-731e-b6fd-4862321743c7"
+  },
+  {
     "id": "49db72df-2ba5-43fa-889f-5557b5785700",
     "name": "PT Rosnati (Rs Pertamedika Ummi Rosnati)",
     "type": "Anak Perusahaan / Afiliasi BUMN",
-    "cluster": "Kesehatan & Farmasi",
+    "cluster": "Energi, Minyak & Tambang",
     "matched_keyword": "pertamedika",
     "vacancies": 15,
     "city": "Kota Banda Aceh",
     "address": "Jl. Sekolah No.5 Gampoeng Ateuk Pahlawan Kecamatan Baiturrahman, Kota Banda Aceh, Aceh",
-    "description": "$2f",
+    "description": "$35",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/047004e7-811a-485c-bd62-a8a60bb24d77/6707706676427.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-rosnati-rs-pertamedika-ummi-rosnati-49db72df-2ba5-43fa-889f-5557b5785700"
   },
@@ -1399,7 +1490,7 @@
     "vacancies": 15,
     "city": "Kab. Rembang",
     "address": "Desa Kajar, Kecamatan Gunem, Kabupaten Rembang",
-    "description": "$2f",
+    "description": "$25",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/5d5bed79-455f-4dc9-a4b0-150bf306e303/621a2c978379f.jpg",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-semen-gresik-pabrik-rembang-b97cf4fd-7b69-41cd-a2d9-667e15f2cbe6"
   },
@@ -1629,11 +1720,11 @@
     "name": "Perusahaan Perseroan (Persero) PT. Perusahaan Perkembangan Ekonomi Nasional Rajawali Nusantara Indonesia",
     "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Pangan, Pertanian & Kehutanan",
-    "matched_keyword": "rajawali nusantara",
+    "matched_keyword": "rajawali nusantara indonesia",
     "vacancies": 13,
     "city": "Kota Adm. Jakarta Selatan",
     "address": "Waskita Rajawali Tower, Jl. Letjen M.T. Haryono, RW.6",
-    "description": "$25",
+    "description": "$2f",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/cf31b0ff-ded0-4c2c-b995-b8f82ffdbf22/69e5976237c8c.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-pt-perusahaan-perkembangan-ekonomi-nasional-rajawali-nusantara-indonesia-cf31b0ff-ded0-4c2c-b995-b8f82ffdbf22"
   },
@@ -1809,7 +1900,7 @@
   {
     "id": "13cd2d57-5ca6-4378-a722-ab9dada019a6",
     "name": "PT. Angkasa Pura Indonesia",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
     "matched_keyword": "angkasa pura",
     "vacancies": 11,
@@ -1822,7 +1913,7 @@
   {
     "id": "019f4610-8c71-73de-a2ac-f941fdfaac0e",
     "name": "PT. Angkasa Pura Suport",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
     "matched_keyword": "angkasa pura",
     "vacancies": 11,
@@ -1876,7 +1967,7 @@
     "name": "Perusahaan Perseroan (Persero) PT Aviasi Pariwisata Indonesia Disingkat PT Aviasi Pariwisata Indonesia (Persero)",
     "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
-    "matched_keyword": "angkasa pura",
+    "matched_keyword": "aviasi pariwisata indonesia",
     "vacancies": 11,
     "city": "Kota Adm. Jakarta Pusat",
     "address": "Gedung Sarinah Lantai 14, Jl. MH. Thamrin No. 11",
@@ -1926,7 +2017,7 @@
   {
     "id": "1027fbc7-9ee8-4133-abe3-1f43f6d174cf",
     "name": "PT Angkasa Pura Indonesia Bandara Sentani Jayapura",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
     "matched_keyword": "angkasa pura",
     "vacancies": 10,
@@ -2002,6 +2093,19 @@
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-27f0e322-7473-4da0-984d-314c1570528d"
   },
   {
+    "id": "019f3603-6823-70f6-af38-12cfaf586405",
+    "name": "Aero Wisata",
+    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "aero wisata",
+    "vacancies": 9,
+    "city": "Kota Adm. Jakarta Pusat",
+    "address": "JL PRAJURIT KKO USMAN DAN HARUN NOMOR 32",
+    "description": "PT Aero Wisata",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/b069f289-38cf-44ff-963f-2e64be2db2e3/694b87cbef89b.jpg",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/aero-wisata-019f3603-6823-70f6-af38-12cfaf586405"
+  },
+  {
     "id": "019fa261-c5ff-7176-b545-b578902efe35",
     "name": "Bank Hibank Indonesia",
     "type": "BUMN Induk (Persero / Perum)",
@@ -2043,7 +2147,7 @@
   {
     "id": "70f76f62-431d-4a04-be8b-1173d44467a9",
     "name": "PT Angkasa Pura Indonesia Bandar Udara Internasional Jenderal Ahmad Yani Semarang",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
     "matched_keyword": "angkasa pura",
     "vacancies": 9,
@@ -2101,7 +2205,7 @@
     "vacancies": 9,
     "city": "Kota Palembang",
     "address": "Jl. Merdeka No.11 Palembang-30132, Sumatera Selatan",
-    "description": "$2f",
+    "description": "$34",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/315cb472-12e2-4119-817e-b55132b9bce7/6487b72fee0e3.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-pegadaian-kantor-wilayah-iii-palembang-27409d7d-b3c5-4246-bcc5-d9cb6ad491bb"
   },
@@ -2174,8 +2278,8 @@
     "id": "01a15341-71bc-73b3-9b55-2b1dcb24a791",
     "name": "Inka Multi Solusi Trading",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN / BUMD Lainnya",
-    "matched_keyword": null,
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "inka",
     "vacancies": 8,
     "city": "Kota Madiun",
     "address": "Jl. Ring Road Barat",
@@ -2221,6 +2325,19 @@
     "description": "Bank Syariah Indonesi KC Serang berlokasi di Jl. Ahmad  Yani No 175 C-D Kel. Sumur Pecung Kec. Serang Kota Serang",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/3fe5aab6-3abb-4496-9e9e-a1773868cac1/61a5fb42dbd41.jpeg",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-bank-syariah-indonesia-area-serang-019f4af1-5597-7181-896c-550df4cda367"
+  },
+  {
+    "id": "019f4579-cb8f-72b7-9523-3eeaead09cc3",
+    "name": "PT Garuda Maintenance Facility Aero Asia Tbk",
+    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "garuda maintenance facility",
+    "vacancies": 8,
+    "city": "Kota Tangerang",
+    "address": "PT Garuda Maintenance Facility Aero Asia Tbk, Gedung Manajemen PT Garuda Indonesia Lantai 3, Area Perkantoran Bandara Soekarno Hatta, Kelurahan Pajang, Kecamatan Benda, Kota Tangerang",
+    "description": "PT Garuda Maintenance Facility Aero Asia Tbk merupakan perusahaan yang berlokasi di Tangerang, Provinsi Banten, Indonesia. Perusahaan ini menyediakan layanan perbaikan pesawat dari berbagai jenis dan merupakan salah satu fasilitas perawatan, perbaikan, dan pemeriksaan pesawat terbesar di Asia.",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/08deb408-f690-476a-a270-9a30f9b471f1/69e9d67458b02.png",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-garuda-maintenance-facility-aero-asia-tbk-019f4579-cb8f-72b7-9523-3eeaead09cc3"
   },
   {
     "id": "71de7a4d-8135-4ad4-8853-e42f3e35f51e",
@@ -2286,6 +2403,19 @@
     "description": "",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/a704e858-7a92-4dcd-baa5-3c4bad62e25f/63439883b10f8.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-telkomsel-regional-sumbagteng-a704e858-7a92-4dcd-baa5-3c4bad62e25f"
+  },
+  {
+    "id": "01a04181-235a-7026-9619-326456934d56",
+    "name": "PT. Aerotrans Services Indonesia",
+    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "aerotrans",
+    "vacancies": 8,
+    "city": "Kota Tangerang",
+    "address": "JL. HUSEIN SASTRANEGARA NO.2 KEL. JURUMUDI KEC. BENDA KOTA TANGERANG",
+    "description": "Established with commitment to deliver a perfect quality of service, PT. Aerotrans Services Indonesia is a well known by Aerotrans as its Brand. Aerotrans started its journey in 1988 under name PT. Mandira Erajasa Wahana (MEW) as Aerowisata business unit. Aerotrans provides services on tourism industry and corporate transportation business purposes and also as one of supporting of Garuda Indonesia the national airline of Indonesia.",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/375533da-28b1-4e1f-8de5-23086a229804/61652b98edbf2.jpg",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-aerotrans-services-indonesia-01a04181-235a-7026-9619-326456934d56"
   },
   {
     "id": "86b2c075-3a15-4c38-8ba0-64eeb8367859",
@@ -2361,7 +2491,7 @@
     "vacancies": 8,
     "city": "Kota Jayapura",
     "address": "Jl. Raya Kelapa Dua Entrop",
-    "description": "$30",
+    "description": "$35",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/47585514-0aa0-4863-acda-cb24ff8515e2/6a857bde24a53.jpg",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-01a03c63-dec8-70bb-a9ef-fa00838297f5"
   },
@@ -2396,7 +2526,7 @@
     "name": "Reska Multi Usaha",
     "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
-    "matched_keyword": "kereta api indonesia",
+    "matched_keyword": "reska multi usaha",
     "vacancies": 8,
     "city": "Kota Adm. Jakarta Pusat",
     "address": "Jalan Karang Anyar Nomor 1, Lantai Dasar Stasiun Mangga Besar, Jakarta Pusat Daerah Khusus Ibukota Jakarta, 10740.",
@@ -2810,7 +2940,7 @@
   {
     "id": "019f60aa-abf0-7240-8332-bd8ac19e0d56",
     "name": "PT Angkasa Pura Suport",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
     "matched_keyword": "angkasa pura",
     "vacancies": 6,
@@ -2849,7 +2979,7 @@
   {
     "id": "01a056fe-6ec3-7128-8688-0a94a690bf24",
     "name": "PT. Angkasa Pura Support",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
     "matched_keyword": "angkasa pura",
     "vacancies": 6,
@@ -2966,7 +3096,7 @@
   {
     "id": "01a056b4-325e-71a5-8794-7a71430cdbda",
     "name": "Angkasa Pura Suport",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
     "matched_keyword": "angkasa pura",
     "vacancies": 5,
@@ -3198,17 +3328,17 @@
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-pt-perkebunan-nusantara-i-01a042a8-7fc2-7016-abe3-020749c45fc5"
   },
   {
-    "id": "019f46ad-dade-738e-823b-42ff3a12f220",
-    "name": "Artha Rajawali Nusantara",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
-    "cluster": "Pangan, Pertanian & Kehutanan",
-    "matched_keyword": "rajawali nusantara",
+    "id": "019f4c2a-6e2a-71f0-b5f1-f32f490c016a",
+    "name": "Airnav Indonesia Cabang Palembang",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "airnav",
     "vacancies": 4,
-    "city": "Kota Adm. Jakarta Selatan",
-    "address": "Jalan Raya Lenteng Agung No.34",
-    "description": "",
-    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/4bc676dd-0f29-4ec7-aa4a-9a2fd18c9c85/6a579679bc68a.jpeg",
-    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/artha-rajawali-nusantara-019f46ad-dade-738e-823b-42ff3a12f220"
+    "city": "Kab. Banyuasin",
+    "address": "Gedung Radar Airnav Indonesia, Talang Betutu, Kec. Sukarami, Kota Palembang, Sumatera Selatan 30961",
+    "description": "Perum LPPNPI Kantor Cabang Palembang",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/fa592614-b893-4dbc-892e-58c32e73ce76/6a5093ea3495f.png",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/airnav-indonesia-cabang-palembang-019f4c2a-6e2a-71f0-b5f1-f32f490c016a"
   },
   {
     "id": "68252610-f313-4aca-b74b-b7a877822cf0",
@@ -3297,7 +3427,7 @@
     "vacancies": 4,
     "city": "Kota Depok",
     "address": "Jl. Margonda Raya No. 209, Kel. Kemiri Muka, Kec. Beji, Kota Depok, Jawa Barat",
-    "description": "$2f",
+    "description": "$36",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/9f3084eb-29d2-4929-b4c7-8e1c286c895e/61a59b5c42597.jpeg",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-bank-syariah-indonesia-tbk-019f49ad-15f4-721a-8d49-8a1262e85a3f"
   },
@@ -3332,7 +3462,7 @@
     "name": "PT Rajawali Nusindo",
     "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Pangan, Pertanian & Kehutanan",
-    "matched_keyword": "rajawali nusantara",
+    "matched_keyword": "rajawali nusantara indonesia",
     "vacancies": 4,
     "city": "Kota Adm. Jakarta Selatan",
     "address": "Jalan Denpasar Raya Kav. DIII Kuningan, Jakarta Selatan",
@@ -3354,6 +3484,19 @@
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-bank-mandiri-persero-tbk-cabang-semarang-pahlawan-01a0414f-53b7-7198-924e-c755d1b751da"
   },
   {
+    "id": "019f5f93-205e-7036-a87d-0100f31ea4f4",
+    "name": "PT. Bank Syariah Indonesia.tbk",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "Perbankan & Jasa Keuangan",
+    "matched_keyword": "bank syariah indonesia",
+    "vacancies": 4,
+    "city": "Kota Bekasi",
+    "address": "Komplek Pertokoan Summarecon Bekasi, Rukan Sapphire Commercial Blok SF 11-12 Jl. Boulevard Selatan, Kel. Marga Mulya Kec. Bekasi Utara, Kota Bekasi",
+    "description": "Area Bekasi (Kota) merupakan bagian dari Bank Syariah Indonesia Region XI Jakarta 3 yang bertanggung jawab dalam pembinaan, pengawasan operasional, serta pengembangan bisnis jaringan kantor BSI di wilayah Kota Bekasi.",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/165999c0-037c-4518-b93c-87bfdc62f9c6/6a5453ebb3ad8.jpeg",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-bank-syariah-indonesia-tbk-019f5f93-205e-7036-a87d-0100f31ea4f4"
+  },
+  {
     "id": "01a0333e-609f-725f-8431-88e6ac500e30",
     "name": "PT. Bank Syariah Indonesia.tbk",
     "type": "BUMN Induk (Persero / Perum)",
@@ -3367,17 +3510,17 @@
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-bank-syariah-indonesia-tbk-01a0333e-609f-725f-8431-88e6ac500e30"
   },
   {
-    "id": "019f5f93-205e-7036-a87d-0100f31ea4f4",
-    "name": "PT. Bank Syariah Indonesia.tbk",
-    "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "Perbankan & Jasa Keuangan",
-    "matched_keyword": "bank syariah indonesia",
+    "id": "01a15c6c-7605-725c-8237-48d02486b015",
+    "name": "PT. Gapura Angkasa",
+    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "gapura angkasa",
     "vacancies": 4,
-    "city": "Kota Bekasi",
-    "address": "Komplek Pertokoan Summarecon Bekasi, Rukan Sapphire Commercial Blok SF 11-12 Jl. Boulevard Selatan, Kel. Marga Mulya Kec. Bekasi Utara, Kota Bekasi",
-    "description": "Area Bekasi (Kota) merupakan bagian dari Bank Syariah Indonesia Region XI Jakarta 3 yang bertanggung jawab dalam pembinaan, pengawasan operasional, serta pengembangan bisnis jaringan kantor BSI di wilayah Kota Bekasi.",
-    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/165999c0-037c-4518-b93c-87bfdc62f9c6/6a5453ebb3ad8.jpeg",
-    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-bank-syariah-indonesia-tbk-019f5f93-205e-7036-a87d-0100f31ea4f4"
+    "city": "Kab. Badung",
+    "address": "Benoa Square, \njl. Bypass Ngurah Rai no. 21 A, Kedonganan - Kuta. Bali",
+    "description": "",
+    "logoUrl": "",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-gapura-angkasa-01a15c6c-7605-725c-8237-48d02486b015"
   },
   {
     "id": "01a12404-c2ab-70a8-abd6-28c3eca2f11c",
@@ -3586,6 +3729,32 @@
     "description": "Best Western Premier The Hive berlokasi strategis di Kawasan Bisnis Cawang, antara Jakarta Timur dan Selatan. Memiliki 188 kamar dan suite, hotel ini menawarkan fasilitas berlimpah, seperti layanan kamar 24 jam, lounge bar, outdoor swimming pool, spa & massage, dan fitness centre. Tujuh ruang multifungsi juga tersedia untuk seminar, pernikahan atau pesta ulang tahun.",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/e3c638f4-025d-4f5d-8deb-2e15bbf82762/672c21bde65ac.jpeg",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/wijaya-karya-realty-5f2bf3d7-005e-46e3-a14b-bd98b28ea335"
+  },
+  {
+    "id": "019f4ad1-fb53-7215-ae47-b59911ba1da5",
+    "name": "Airnav Indonesia Cabang Kupang",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "airnav",
+    "vacancies": 3,
+    "city": "Kota Kupang",
+    "address": "Jl. Adi Sucipto Penfui, Penfui, Kec. Maulafa, Kota Kupang, Nusa Tenggara Tim",
+    "description": "Perum LPPNPI Cabang Kupang",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/817ca45d-4207-46b9-8c4a-c956353b35cd/6a508bca879b1.png",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/airnav-indonesia-cabang-kupang-019f4ad1-fb53-7215-ae47-b59911ba1da5"
+  },
+  {
+    "id": "019f4b98-2e03-7027-8942-6d78c52366bc",
+    "name": "Airnav Indonesia Cabang Sentani",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "airnav",
+    "vacancies": 3,
+    "city": "Kab. Jayapura",
+    "address": "Perum LPPNPI Kantor Cabang Sentani, Jl Yabaso no. 76 Sentani 99352 Jayapura - Papua",
+    "description": "Perum LPPNPI Kantor Cabang Sentani",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/e42bc182-95b1-40c0-a002-b492055540ab/6a5092e3dd428.png",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/airnav-indonesia-cabang-sentani-019f4b98-2e03-7027-8942-6d78c52366bc"
   },
   {
     "id": "01a18243-d530-7087-b08d-31e290b04e9b",
@@ -3939,6 +4108,19 @@
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-bank-syariah-indonesia-tbk-01a15714-2830-70f6-ad80-03e1111e7d3c"
   },
   {
+    "id": "4062a54c-ea47-40cc-b285-9ea935e3e630",
+    "name": "Pengerukan Indonesia",
+    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "pengerukan indonesia",
+    "vacancies": 3,
+    "city": "Kota Adm. Jakarta Utara",
+    "address": "Jl. Raya Ancol Baru, Ancol Timur, Jakarta Utara 14310",
+    "description": "PT Pengerukan Indonesia atau biasa disingkat menjadi Rukindo, adalah anak usaha dari Pelindo Jasa Maritim yang bergerak di bidang pengerukan. Untuk mendukung kegiatan bisnisnya, hingga tahun 2019, perusahaan ini memiliki 9 unit kapal keruk.",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/1d9a4449-e761-4eec-a2c5-7525b39cd8db/6a150fec01167.png",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pengerukan-indonesia-4062a54c-ea47-40cc-b285-9ea935e3e630"
+  },
+  {
     "id": "019f59ae-737f-7104-b478-88f92390c69a",
     "name": "Perkebunan Nusantara Iv",
     "type": "Anak Perusahaan / Afiliasi BUMN",
@@ -3963,58 +4145,6 @@
     "description": "PT Bank Negara Indonesia (Persero) Tbk atau BNI adalah Bank BUMN (Badan Usaha Milik Negara) pertama yang menjadi perusahaan publik. BNI didirikan pada tanggal 5 Juli 1946.",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/4ca87a53-9ec1-4459-b311-ba068d73f9cd/69e892379740e.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-019f645a-490d-73e7-b0a1-9f05dd979917"
-  },
-  {
-    "id": "781e39c8-3772-4187-8be7-417b30b1d7c7",
-    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
-    "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "Perbankan & Jasa Keuangan",
-    "matched_keyword": "bank negara indonesia",
-    "vacancies": 3,
-    "city": "Kab. Sidoarjo",
-    "address": "JL. JENGGOLO NO. 47-51",
-    "description": "PT Bank Negara Indonesia (Persero) Tbk, atau biasa disingkat BNI, adalah salah satu Badan Usaha Milik Negara (BUMN) terbesar di Indonesia",
-    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/781e39c8-3772-4187-8be7-417b30b1d7c7/6abcddf79e926.png",
-    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-781e39c8-3772-4187-8be7-417b30b1d7c7"
-  },
-  {
-    "id": "902e8379-d65a-41f5-9e08-9c83ebbd0bcb",
-    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
-    "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "Perbankan & Jasa Keuangan",
-    "matched_keyword": "bank negara indonesia",
-    "vacancies": 3,
-    "city": "Kota Makassar",
-    "address": "Jl. Padjonga Dg. Ngalle No. 59 B-C",
-    "description": "$30",
-    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/902e8379-d65a-41f5-9e08-9c83ebbd0bcb/6a47271c803d5.png",
-    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-902e8379-d65a-41f5-9e08-9c83ebbd0bcb"
-  },
-  {
-    "id": "d8672817-222f-40f3-a58d-a30e61c412a4",
-    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
-    "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "Perbankan & Jasa Keuangan",
-    "matched_keyword": "bank negara indonesia",
-    "vacancies": 3,
-    "city": "Kab. Kendal",
-    "address": "JL. Pemuda No.15A",
-    "description": "BNI (PT Bank Negara Indonesia (Persero) Tbk) adalah salah satu bank terbesar di Indonesia yang didirikan pada 5 Juli 1946, awalnya sebagai bank sentral lalu menjadi Bank Milik Negara (BUMN). Sebagai perusahaan publik, BNI menyediakan berbagai layanan perbankan untuk perorangan, bisnis, dan korporasi, dengan jaringan luas dan komitmen pada inovasi digital serta pembangunan ekonomi nasional.",
-    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/722585ec-ba98-42f0-bbaf-40649bcfdc97/68dff0ecaab39.jpeg",
-    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-d8672817-222f-40f3-a58d-a30e61c412a4"
-  },
-  {
-    "id": "f4607978-4d1b-453f-9e5f-7c151ac62807",
-    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
-    "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "Perbankan & Jasa Keuangan",
-    "matched_keyword": "bank negara indonesia",
-    "vacancies": 3,
-    "city": "Kota Tomohon",
-    "address": "Jalan Raya Tomohon",
-    "description": "BNI Kantor Cabang Tomohon (KC Tomohon) adalah salah satu kantor cabang PT Bank Negara Indonesia (Persero) Tbk yang berlokasi strategis di Jl. Raya Tomohon, Kel. Kamasi, Kota Tomohon. Sebagai bank BUMN, BNI Tomohon berfokus pada digitalisasi layanan perbankan, mendukung ekonomi lokal, serta melayani nasabah perorangan, bisnis, dan korporasi dengan standar modern.",
-    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/f4607978-4d1b-453f-9e5f-7c151ac62807/6a913d1e19231.jpeg",
-    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-f4607978-4d1b-453f-9e5f-7c151ac62807"
   },
   {
     "id": "01a0e774-5c6b-7168-8567-f41d640c22c1",
@@ -4056,6 +4186,19 @@
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-686ac4df-c8f7-411d-9d00-6c5fc081815e"
   },
   {
+    "id": "781e39c8-3772-4187-8be7-417b30b1d7c7",
+    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "Perbankan & Jasa Keuangan",
+    "matched_keyword": "bank negara indonesia",
+    "vacancies": 3,
+    "city": "Kab. Sidoarjo",
+    "address": "JL. JENGGOLO NO. 47-51",
+    "description": "PT Bank Negara Indonesia (Persero) Tbk, atau biasa disingkat BNI, adalah salah satu Badan Usaha Milik Negara (BUMN) terbesar di Indonesia",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/781e39c8-3772-4187-8be7-417b30b1d7c7/6abcddf79e926.png",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-781e39c8-3772-4187-8be7-417b30b1d7c7"
+  },
+  {
     "id": "7c076d69-b936-485e-bcd0-744ff7a37962",
     "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
     "type": "BUMN Induk (Persero / Perum)",
@@ -4080,6 +4223,19 @@
     "description": "PT Bank Negara Indonesia (Persero) Tbk Kantor Cabang Kuala Tungkal merupakan salah satu jaringan layanan BNI di Kabupaten Tanjung Jabung Barat, Provinsi Jambi. Kantor cabang ini berlokasi di Jl. Merdeka No.45, Tungkal IV Desa, Kec. Tungkal Ilir, Kabupaten Tanjung Jabung Barat, Jambi 36512\nTelepon: (0742) 21946",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/842f8b75-83a0-4786-bae9-418c0ff79d73/68df548f4157e.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-842f8b75-83a0-4786-bae9-418c0ff79d73"
+  },
+  {
+    "id": "902e8379-d65a-41f5-9e08-9c83ebbd0bcb",
+    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "Perbankan & Jasa Keuangan",
+    "matched_keyword": "bank negara indonesia",
+    "vacancies": 3,
+    "city": "Kota Makassar",
+    "address": "Jl. Padjonga Dg. Ngalle No. 59 B-C",
+    "description": "$34",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/902e8379-d65a-41f5-9e08-9c83ebbd0bcb/6a47271c803d5.png",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-902e8379-d65a-41f5-9e08-9c83ebbd0bcb"
   },
   {
     "id": "96de3784-6fae-4c22-a72b-733cc8677119",
@@ -4121,6 +4277,19 @@
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-c4c89b0a-b4db-4104-96f7-8bf2797ff79d"
   },
   {
+    "id": "d8672817-222f-40f3-a58d-a30e61c412a4",
+    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "Perbankan & Jasa Keuangan",
+    "matched_keyword": "bank negara indonesia",
+    "vacancies": 3,
+    "city": "Kab. Kendal",
+    "address": "JL. Pemuda No.15A",
+    "description": "BNI (PT Bank Negara Indonesia (Persero) Tbk) adalah salah satu bank terbesar di Indonesia yang didirikan pada 5 Juli 1946, awalnya sebagai bank sentral lalu menjadi Bank Milik Negara (BUMN). Sebagai perusahaan publik, BNI menyediakan berbagai layanan perbankan untuk perorangan, bisnis, dan korporasi, dengan jaringan luas dan komitmen pada inovasi digital serta pembangunan ekonomi nasional.",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/722585ec-ba98-42f0-bbaf-40649bcfdc97/68dff0ecaab39.jpeg",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-d8672817-222f-40f3-a58d-a30e61c412a4"
+  },
+  {
     "id": "ed4dc137-587c-45fe-9a4c-2bcc85dd1067",
     "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
     "type": "BUMN Induk (Persero / Perum)",
@@ -4132,6 +4301,19 @@
     "description": "PT Bank Negara Indonesia (Persero) Tbk atau biasa disingkat menjadi BNI, adalah sebuah badan usaha milik negara Indonesia yang bergerak di bidang perbankan konsumen.",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/ed4dc137-587c-45fe-9a4c-2bcc85dd1067/68e49e68df21b.jpg",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-ed4dc137-587c-45fe-9a4c-2bcc85dd1067"
+  },
+  {
+    "id": "f4607978-4d1b-453f-9e5f-7c151ac62807",
+    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "Perbankan & Jasa Keuangan",
+    "matched_keyword": "bank negara indonesia",
+    "vacancies": 3,
+    "city": "Kota Tomohon",
+    "address": "Jalan Raya Tomohon",
+    "description": "BNI Kantor Cabang Tomohon (KC Tomohon) adalah salah satu kantor cabang PT Bank Negara Indonesia (Persero) Tbk yang berlokasi strategis di Jl. Raya Tomohon, Kel. Kamasi, Kota Tomohon. Sebagai bank BUMN, BNI Tomohon berfokus pada digitalisasi layanan perbankan, mendukung ekonomi lokal, serta melayani nasabah perorangan, bisnis, dan korporasi dengan standar modern.",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/f4607978-4d1b-453f-9e5f-7c151ac62807/6a913d1e19231.jpeg",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-f4607978-4d1b-453f-9e5f-7c151ac62807"
   },
   {
     "id": "01a13dc2-2702-73a3-a859-7343f358ca20",
@@ -4238,9 +4420,35 @@
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/telkomsel-branch-tasikmalaya-b6770941-3477-4ce1-9874-2ea9493ff47d"
   },
   {
+    "id": "019f64c2-9107-7389-bbc9-dde60e137dea",
+    "name": "Airnav Cabang Surabaya",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "airnav",
+    "vacancies": 2,
+    "city": "Kab. Sidoarjo",
+    "address": "Segoro Tambak, Sedati, Segoro Tambak, Sidoarjo, Kabupaten Sidoarjo, Jawa Timur",
+    "description": "Perum LPPNPI Kantor Cabang Surabaya",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/387f3265-bc97-46f7-94c3-707c71c6974c/6a5094c0eae94.png",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/airnav-cabang-surabaya-019f64c2-9107-7389-bbc9-dde60e137dea"
+  },
+  {
+    "id": "019f5f7c-6c1e-7234-bc78-aff38f17af99",
+    "name": "Airnav Indonesia Cabang Yogyakarta",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "airnav",
+    "vacancies": 2,
+    "city": "Kab. Sleman",
+    "address": "Radar Bandara Adisutjipto, Jl. Raya Solo - Yogyakarta No.Km. 9, Auri, Tegaltirto, Kec. Berbah, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55282",
+    "description": "Perum LPPNPI Kantor Cabang Yogyakarta",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/5aceb90d-831e-43ab-909a-096b1844ba4b/6a5092916185e.png",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/airnav-indonesia-cabang-yogyakarta-019f5f7c-6c1e-7234-bc78-aff38f17af99"
+  },
+  {
     "id": "01a05612-0bc7-7352-9858-a002fbcbd3bf",
     "name": "Angkasa Pura Suport",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
     "matched_keyword": "angkasa pura",
     "vacancies": 2,
@@ -4415,7 +4623,7 @@
     "vacancies": 2,
     "city": "Kota Adm. Jakarta Pusat",
     "address": "Jl. Kebon Sirih No. 51-53",
-    "description": "$2f",
+    "description": "$32",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/cdc5a1c9-8dde-44b7-a2e9-f672082ad1e5/620e2c20db34f.jpeg",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-bank-negara-indonesia-tbk-persero-kantor-cabang-gambir-b9abc7f3-487a-4e59-b09d-1b3b9dcdea3a"
   },
@@ -4591,13 +4799,13 @@
   {
     "id": "019f64b3-555b-7271-bf1c-64ae35b1b168",
     "name": "PT. Angkasa Pura Suport Cabang Lop",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
     "matched_keyword": "angkasa pura",
     "vacancies": 2,
     "city": "Kab. Lombok Tengah",
     "address": "JL Bypass, Desa Batujai, Dusun Batulajang, Kecamatan Praya Barat, Lombok Tengah",
-    "description": "$30",
+    "description": "$2f",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/a5b19c66-e877-4863-b8e3-a5534f08d818/65fa53b3be839.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-angkasa-pura-suport-cabang-lop-019f64b3-555b-7271-bf1c-64ae35b1b168"
   },
@@ -4727,22 +4935,9 @@
     "vacancies": 2,
     "city": "Kota Palembang",
     "address": "Jalan Jendral Sudirman No 132",
-    "description": "$31",
+    "description": "$32",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/0a23d141-a22e-43e3-812f-50c6114d9a4c/68de6d7558846.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-0a23d141-a22e-43e3-812f-50c6114d9a4c"
-  },
-  {
-    "id": "5e63e5a4-749a-4fc6-a47f-846e73c0c6d4",
-    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
-    "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "Perbankan & Jasa Keuangan",
-    "matched_keyword": "bank negara indonesia",
-    "vacancies": 2,
-    "city": "Kota Adm. Jakarta Barat",
-    "address": "Jl. Roa Malaka Selatan No.23-25",
-    "description": "$2f",
-    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/5e63e5a4-749a-4fc6-a47f-846e73c0c6d4/69e5d8d548ce6.jpg",
-    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-5e63e5a4-749a-4fc6-a47f-846e73c0c6d4"
   },
   {
     "id": "08854cca-a1db-478b-9e79-34e4408a6e83",
@@ -4821,6 +5016,19 @@
     "description": "BNI PONTIANAK",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/5c418a61-b393-4b05-af85-015ac9a7b7ee/6ad0af2708255.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-5c418a61-b393-4b05-af85-015ac9a7b7ee"
+  },
+  {
+    "id": "5e63e5a4-749a-4fc6-a47f-846e73c0c6d4",
+    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "Perbankan & Jasa Keuangan",
+    "matched_keyword": "bank negara indonesia",
+    "vacancies": 2,
+    "city": "Kota Adm. Jakarta Barat",
+    "address": "Jl. Roa Malaka Selatan No.23-25",
+    "description": "$33",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/5e63e5a4-749a-4fc6-a47f-846e73c0c6d4/69e5d8d548ce6.jpg",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-5e63e5a4-749a-4fc6-a47f-846e73c0c6d4"
   },
   {
     "id": "a4d644b4-7268-4099-9530-b68ae1c6cf2a",
@@ -5109,9 +5317,22 @@
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/witel-papua-barat-01a13e53-4b87-7140-9131-c1254a78e845"
   },
   {
+    "id": "01a057ee-704f-7339-aac6-87cff6b17932",
+    "name": "Airnav Indonesia Cabang Tarakan",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "Transportasi, Logistik & Aviasi",
+    "matched_keyword": "airnav",
+    "vacancies": 1,
+    "city": "Kota Samarinda",
+    "address": "Jl Mulawarman no. 1 Kelurahan Karang Anyar Pantai Kecamatan Tarakan Barat Kota Tarakan - Kalimantan Utara",
+    "description": "Perum LPPNPI Cabang Tarakan",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/700b5b42-0250-437e-bcdd-32f7993ebae0/6a508d8830671.png",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/airnav-indonesia-cabang-tarakan-01a057ee-704f-7339-aac6-87cff6b17932"
+  },
+  {
     "id": "01a022c9-d44d-724a-930f-8f253f03127a",
     "name": "Angkasa Pura Suport",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
     "matched_keyword": "angkasa pura",
     "vacancies": 1,
@@ -5124,7 +5345,7 @@
   {
     "id": "01a10b1c-af02-7237-85fa-6b18103e099d",
     "name": "Angkasa Pura Suport",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
     "matched_keyword": "angkasa pura",
     "vacancies": 1,
@@ -5598,7 +5819,7 @@
     "vacancies": 1,
     "city": "Kota Palu",
     "address": "Jl. Gajah Mada No. 77, Kel. Ujuna, Kec. Palu Barat Kota Palu",
-    "description": "$2f",
+    "description": "$34",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/ddd943a2-2f14-48a1-a608-f4d9796e89e2/6a926716ceac7.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-bank-syariah-indonesia-tbk-01a153e1-db7b-7333-899a-150de56de277"
   },

@@ -1,42 +1,73 @@
 import re
 
 BUMN_HOLDINGS = {
+    "Transportasi, Logistik & Aviasi": [
+        # Garuda Indonesia Group
+        "garuda indonesia", "citilink", "gmf aero asia", "gmf aeroasia", "garuda maintenance facility",
+        "aero systems indonesia", "aerotrans", "aero wisata", "aerowisata", "aerofood", "acs",
+        "gapura angkasa",
+        
+        # InJourney & Angkasa Pura Group
+        "aviasi pariwisata indonesia", "injourney", "angkasa pura", "integrasi aviasi solusi",
+        "ias", "bandara sultan hasanuddin", "bandar udara internasional",
+        
+        # AirNav / Navigasi
+        "airnav", "lppnpi", "navigasi penerbangan",
+        
+        # KAI & Kereta Api
+        "kereta api indonesia", "kai", "kai bandara", "kai logistik", "kai wisata", "kai commuter",
+        "kai services", "reska multi usaha", "mrt jakarta", "inka", "industri kereta api",
+        
+        # Pelayaran, ASDP & Pelabuhan
+        "pelindo", "pelabuhan indonesia", "pelindo terminal petikemas", "pelindo daya sejahtera",
+        "pelindo multi terminal", "pelindo jasa maritim", "pelindo solusilogistik",
+        "asdp", "asdp indonesia ferry", "pelni", "pelayaran nasional indonesia",
+        "pengerukan indonesia", "rukindo", "varuna tirta prakasya",
+        
+        # Logistik & Darat
+        "damri", "pos indonesia", "poslog", "pos logistik indonesia"
+    ],
     "Perbankan & Jasa Keuangan": [
-        "mandiri", "bank mandiri", "bri", "bank rakyat indonesia", "bni", "bank negara indonesia",
-        "btn", "bank tabungan negara", "bsi", "bank syariah indonesia", "pegadaian",
-        "permodalan nasional madani", "pnm", "danareksa", "jasa raharja", "jasindo",
+        "mandiri", "bank mandiri", "mandiri sekuritas", "mandiri utama finance", "axa mandiri",
+        "bri", "bank rakyat indonesia", "bri life", "bri insurance", "bri danareksa",
+        "bni", "bank negara indonesia", "bni life", "bni sekuritas",
+        "btn", "bank tabungan negara",
+        "bsi", "bank syariah indonesia",
+        "pegadaian", "permodalan nasional madani", "pnm",
+        "danareksa", "jasa raharja", "jasindo", "asuransi jasa indonesia",
         "asuransi asei", "asei indonesia", "taspen", "asabri", "jamkrindo", "askrindo",
-        "ifg", "bahana"
+        "ifg", "bahana pembinaan usaha indonesia", "bahana"
     ],
     "Energi, Minyak & Tambang": [
-        "pertamina", "pln", "perusahaan listrik negara", "indonesia power", "nusantara power",
-        "mind id", "bukit asam", "aneka tambang", "antam", "timah", "inalum", "pgn",
-        "perusahaan gas negara", "elnusa", "pertamina hulu", "pertamina patra niaga"
+        "pertamina", "pertamina hulu energi", "pertamina patra niaga", "pertamina geothermal",
+        "pertamina gas", "pertamina lubricating", "pertamedika", "pelita air", "pelita air service",
+        "elnusa", "pgn", "perusahaan gas negara",
+        "pln", "perusahaan listrik negara", "indonesia power", "nusantara power", "pln icon plus", "pln epi",
+        "mind id", "bukit asam", "aneka tambang", "antam", "timah", "inalum", "indonesia asahan aluminium"
     ],
     "Infrastruktur, Karya & Semen": [
-        "wijaya karya", "wika", "waskita", "adhi karya", "hutama karya", "pt pp", "pembangunan perumahan",
-        "brantas abipraya", "nindya karya", "jasa marga", "semen indonesia", "semen padang", "semen gresik",
-        "semen tonasa", "perumnas", "krakatau steel", "krakatau medika", "amarta karya"
-    ],
-    "Transportasi, Logistik & Aviasi": [
-        "kereta api indonesia", "kai", "pelindo", "pelabuhan indonesia", "asdp", "pelni",
-        "garuda indonesia", "citilink", "gmf aeroasia", "angkasa pura", "damri", "pos indonesia",
-        "poslog", "pos logistik", "injourney", "mrt jakarta"
+        "wijaya karya", "wika", "waskita", "waskita karya", "adhi karya", "hutama karya",
+        "pt pp", "pembangunan perumahan", "brantas abipraya", "nindya karya", "amarta karya",
+        "jasa marga", "perumnas", "krakatau steel", "krakatau medika", "krakatau posco",
+        "semen indonesia", "semen padang", "semen gresik", "semen tonasa"
     ],
     "Telekomunikasi & Digital": [
-        "telkom", "telkomsel", "metranet", "infomedia", "mitratel", "telkomsat", "telkom akses"
+        "telkom", "telkom indonesia", "telkomsel", "metranet", "infomedia", "mitratel",
+        "telkomsat", "telkom akses", "pins indonesia"
     ],
     "Kesehatan & Farmasi": [
         "bio farma", "kimia farma", "indofarma", "pertamedika", "ihc", "pelindo husada citra"
     ],
     "Pangan, Pertanian & Kehutanan": [
         "bulog", "pupuk indonesia", "petrokimia gresik", "pupuk kujang", "pupuk kaltim", "pusri",
-        "pupuk sriwidjaja", "pupuk iskandar muda", "perkebunan nusantara", "ptpn", "rajawali nusantara",
-        "id food", "perhutani", "jasa tirta", "berdikari", "sang hyang seri"
+        "pupuk sriwidjaja", "pupuk iskandar muda", "perkebunan nusantara", "ptpn",
+        "rajawali nusantara indonesia", "rni", "id food", "perhutani", "jasa tirta",
+        "berdikari", "sang hyang seri", "perikanan indonesia", "perindo"
     ],
     "Manufaktur, Pertahanan & Jasa Lainnya": [
         "pindad", "dirgantara indonesia", "ptdi", "pal indonesia", "len industri", "dahana",
-        "peruri", "sucofindo", "surveyor indonesia", "sarinah"
+        "peruri", "percetakan uang", "sucofindo", "surveyor indonesia", "sarinah",
+        "hotel indonesia natour", "lkbn antara"
     ]
 }
 
@@ -48,7 +79,9 @@ PARENT_BUMN_KEYWORDS = [
     "adhi karya", "hutama karya", "pt pp", "jasa marga", "jasa raharja", "taspen", "asabri",
     "pegadaian", "pnm", "bulog", "perhutani", "jasa tirta", "peruri", "sucofindo",
     "surveyor indonesia", "sarinah", "bank mandiri", "bank rakyat indonesia",
-    "bank negara indonesia", "bank tabungan negara", "bank syariah indonesia", "mind id", "antam", "bukit asam", "timah"
+    "bank negara indonesia", "bank tabungan negara", "bank syariah indonesia",
+    "mind id", "antam", "bukit asam", "timah", "airnav", "injourney",
+    "aviasi pariwisata indonesia", "angkasa pura"
 ]
 
 FALSE_POSITIVE_NAMES = [
@@ -59,7 +92,13 @@ FALSE_POSITIVE_NAMES = [
     "china state construction", "gelora tumbuh hebat", "inkaba", "ardana perkasa",
     "sejahtera kelola", "prima layanan niaga suku cadang", "abuba", "aarya kinari",
     "abadinugraha", "abata indonesia", "abdhi famili", "abhimata persada", "abimanyu",
-    "abipraya teknik sentosa", "abisakti surya", "artindo nusa"
+    "abipraya teknik sentosa", "abisakti surya", "artindo nusa",
+    "garudafood", "garuda yamato", "garuda digital", "garudayaksa", "media garuda",
+    "sinarniaga sejahtera", "sinar niaga sejahtera", "midi utama", "astra international",
+    "century batteries", "toyota-astra", "tiki jalur nugraha", "matahari department",
+    "universal prapen hotel", "fajar rawayan", "harapan graha", "jafari amanah",
+    "jakarta setiabudi", "mega buana bhakti", "miracle living", "sandana arohera",
+    "vaya micetama", "sri indah bangun"
 ]
 
 def classify_company(comp):
