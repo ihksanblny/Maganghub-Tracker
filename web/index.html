@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maganghub BUMN - Portal Pencarian Magang BUMN Kemnaker RI</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f8fafc',
+              100: '#f1f5f9',
+              800: '#1e293b',
+              900: '#0f172a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f8fafc;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col antialiased">
+
+  <!-- Header -->
+  <header class="bg-white border-b border-slate-200/80 sticky top-0 z-30">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded-lg bg-slate-900 text-white flex items-center justify-center font-bold text-xs tracking-tight">
+          MH
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <h1 class="text-sm font-semibold text-slate-900 tracking-tight">Maganghub BUMN</h1>
+            <span class="text-[10px] uppercase font-semibold tracking-wider px-1.5 py-0.5 rounded bg-slate-100 text-slate-600 border border-slate-200">Kemnaker RI</span>
+          </div>
+          <p class="text-xs text-slate-500">Direktori & Lowongan Magang BUMN Nasional</p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <a href="/api/download/csv" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-md bg-white text-slate-700 border border-slate-300 hover:bg-slate-50 transition">
+          <svg class="w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+          </svg>
+          <span>Ekspor CSV</span>
+        </a>
+        <button id="btn-refresh" onclick="triggerRefresh()" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-md bg-slate-900 text-white hover:bg-slate-800 transition">
+          <svg id="refresh-icon" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+          </svg>
+          <span id="refresh-text">Sinkron Data</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <div class="max-w-6xl w-full mx-auto px-4 sm:px-6 py-8 flex-1 flex flex-col gap-6">
+
+    <!-- Hero Stats -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+      <div class="bg-white p-4 rounded-xl border border-slate-200/90 shadow-sm">
+        <div class="text-xs font-medium text-slate-500 mb-1">Total Entitas BUMN</div>
+        <div class="text-2xl font-bold tracking-tight text-slate-900" id="stat-total-companies">0</div>
+        <div class="text-[11px] text-slate-400 mt-1">Terdaftar di Kemnaker</div>
+      </div>
+
+      <div class="bg-white p-4 rounded-xl border border-slate-200/90 shadow-sm">
+        <div class="text-xs font-medium text-slate-500 mb-1">Total Lowongan Aktif</div>
+        <div class="text-2xl font-bold tracking-tight text-emerald-600" id="stat-total-vacancies">0</div>
+        <div class="text-[11px] text-slate-400 mt-1">Posisi magang terbuka</div>
+      </div>
+
+      <div class="bg-white p-4 rounded-xl border border-slate-200/90 shadow-sm">
+        <div class="text-xs font-medium text-slate-500 mb-1">BUMN Induk (Persero/Perum)</div>
+        <div class="text-2xl font-bold tracking-tight text-slate-900" id="stat-induk-count">0</div>
+        <div class="text-[11px] text-slate-400 mt-1">Flagship & Holding BUMN</div>
+      </div>
+
+      <div class="bg-white p-4 rounded-xl border border-slate-200/90 shadow-sm">
+        <div class="text-xs font-medium text-slate-500 mb-1">Anak / Afiliasi BUMN</div>
+        <div class="text-2xl font-bold tracking-tight text-slate-900" id="stat-anak-count">0</div>
+        <div class="text-[11px] text-slate-400 mt-1">Subsidiaries & Grup</div>
+      </div>
+    </div>
+
+    <!-- Filter & Search Card -->
+    <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm space-y-4">
+      
+      <!-- Search Input -->
+      <div class="relative">
+        <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none">
+          <svg class="w-4 h-4 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+          </svg>
+        </div>
+        <input 
+          type="text" 
+          id="search-input" 
+          placeholder="Cari nama BUMN, sektor, kota, atau posisi (contoh: PLN, Mandiri, Pertamina, Surabaya)..."
+          class="w-full pl-10 pr-20 py-2.5 text-sm rounded-lg border border-slate-200 bg-slate-50/50 text-slate-900 placeholder:text-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-slate-900/10 focus:border-slate-400 transition"
+          oninput="handleSearchInput()"
+        >
+        <button 
+          id="btn-clear-search" 
+          onclick="clearSearch()"
+          class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-xs bg-slate-100 hover:bg-slate-200 text-slate-600 px-2 py-0.5 rounded transition"
+        >
+          Bersihkan
+        </button>
+      </div>
+
+      <!-- Segmented Type Buttons & Filter Selects -->
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-3 items-center">
+        <!-- Segmented Type Selector -->
+        <div class="md:col-span-5 flex bg-slate-100 p-1 rounded-lg border border-slate-200/80 text-xs font-medium">
+          <button 
+            type="button" 
+            onclick="setTypeFilter('')" 
+            id="tab-all"
+            class="flex-1 py-1.5 px-2 rounded-md transition text-center font-semibold bg-white text-slate-900 shadow-sm"
+          >
+            Semua BUMN
+          </button>
+          <button 
+            type="button" 
+            onclick="setTypeFilter('induk')" 
+            id="tab-induk"
+            class="flex-1 py-1.5 px-2 rounded-md transition text-center text-slate-600 hover:text-slate-900"
+          >
+            BUMN Induk
+          </button>
+          <button 
+            type="button" 
+            onclick="setTypeFilter('anak')" 
+            id="tab-anak"
+            class="flex-1 py-1.5 px-2 rounded-md transition text-center text-slate-600 hover:text-slate-900"
+          >
+            Anak Perusahaan
+          </button>
+        </div>
+
+        <!-- Klaster Sektor Dropdown -->
+        <div class="md:col-span-3">
+          <select id="select-cluster" onchange="applyFilters()" class="w-full text-xs py-2 px-2.5 rounded-lg border border-slate-200 bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-900/10 focus:border-slate-400 transition">
+            <option value="">Semua Sektor Industri</option>
+          </select>
+        </div>
+
+        <!-- Kota Dropdown -->
+        <div class="md:col-span-2">
+          <select id="select-city" onchange="applyFilters()" class="w-full text-xs py-2 px-2.5 rounded-lg border border-slate-200 bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-900/10 focus:border-slate-400 transition">
+            <option value="">Semua Kota</option>
+          </select>
+        </div>
+
+        <!-- Urutan Dropdown -->
+        <div class="md:col-span-2">
+          <select id="select-sort" onchange="applyFilters()" class="w-full text-xs py-2 px-2.5 rounded-lg border border-slate-200 bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-900/10 focus:border-slate-400 transition">
+            <option value="vacancies_desc">Lowongan Terbanyak</option>
+            <option value="name_asc">Nama (A - Z)</option>
+            <option value="city_asc">Kota (A - Z)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Quick Keywords & Vacancy Toggle -->
+      <div class="pt-3 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3 text-xs">
+        <div class="flex flex-wrap items-center gap-1.5">
+          <span class="text-slate-400 mr-1">Kata kunci:</span>
+          <button onclick="setSearch('PLN')" class="px-2 py-0.5 rounded bg-slate-100 hover:bg-slate-200 text-slate-600 transition">PLN</button>
+          <button onclick="setSearch('Pertamina')" class="px-2 py-0.5 rounded bg-slate-100 hover:bg-slate-200 text-slate-600 transition">Pertamina</button>
+          <button onclick="setSearch('Mandiri')" class="px-2 py-0.5 rounded bg-slate-100 hover:bg-slate-200 text-slate-600 transition">Mandiri</button>
+          <button onclick="setSearch('BRI')" class="px-2 py-0.5 rounded bg-slate-100 hover:bg-slate-200 text-slate-600 transition">BRI</button>
+          <button onclick="setSearch('Telkom')" class="px-2 py-0.5 rounded bg-slate-100 hover:bg-slate-200 text-slate-600 transition">Telkom</button>
+          <button onclick="setSearch('KAI')" class="px-2 py-0.5 rounded bg-slate-100 hover:bg-slate-200 text-slate-600 transition">KAI</button>
+          <button onclick="setSearch('WIKA')" class="px-2 py-0.5 rounded bg-slate-100 hover:bg-slate-200 text-slate-600 transition">WIKA</button>
+          <button onclick="setSearch('Pelindo')" class="px-2 py-0.5 rounded bg-slate-100 hover:bg-slate-200 text-slate-600 transition">Pelindo</button>
+          <button onclick="setSearch('Pupuk')" class="px-2 py-0.5 rounded bg-slate-100 hover:bg-slate-200 text-slate-600 transition">Pupuk</button>
+        </div>
+
+        <label class="inline-flex items-center gap-2 cursor-pointer select-none text-slate-600">
+          <input type="checkbox" id="check-vacancies-only" onchange="applyFilters()" class="rounded border-slate-300 text-slate-900 focus:ring-slate-900">
+          <span>Hanya yang memiliki lowongan aktif (&gt; 0)</span>
+        </label>
+      </div>
+
+    </div>
+
+    <!-- Results Header -->
+    <div class="flex items-center justify-between text-xs text-slate-500 pt-1">
+      <div>
+        Menampilkan <span id="label-result-count" class="font-semibold text-slate-900">0</span> perusahaan
+        (<span id="label-vacancies-count" class="font-semibold text-emerald-600">0</span> lowongan aktif)
+      </div>
+      <div id="pagination-top-summary">
+        Halaman <span id="current-page-label">1</span> dari <span id="total-pages-label">1</span>
+      </div>
+    </div>
+
+    <!-- Company Grid -->
+    <div id="company-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5">
+      <!-- Cards rendered via JS -->
+    </div>
+
+    <!-- Empty State -->
+    <div id="empty-state" class="hidden bg-white rounded-xl border border-slate-200 text-center py-12 px-4">
+      <div class="w-10 h-10 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center mx-auto mb-3">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+        </svg>
+      </div>
+      <h3 class="text-sm font-semibold text-slate-800 mb-1">Tidak ada perusahaan yang cocok</h3>
+      <p class="text-xs text-slate-500 max-w-sm mx-auto mb-4">
+        Coba gunakan kata kunci lain atau ubah pengaturan filter untuk memperluas pencarian.
+      </p>
+      <button onclick="resetAllFilters()" class="px-3.5 py-1.5 text-xs font-medium bg-slate-900 text-white rounded-md hover:bg-slate-800 transition">
+        Reset Filter
+      </button>
+    </div>
+
+    <!-- Pagination Controls -->
+    <div id="pagination-controls" class="flex items-center justify-between pt-4 border-t border-slate-200/80 text-xs">
+      <button 
+        id="btn-prev-page" 
+        onclick="goToPage(currentPage - 1)" 
+        class="px-3 py-1.5 rounded border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition font-medium"
+      >
+        &larr; Sebelumnya
+      </button>
+
+      <div id="pagination-pages" class="flex items-center gap-1 font-medium">
+        <!-- Page buttons dynamically rendered -->
+      </div>
+
+      <button 
+        id="btn-next-page" 
+        onclick="goToPage(currentPage + 1)" 
+        class="px-3 py-1.5 rounded border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition font-medium"
+      >
+        Selanjutnya &rarr;
+      </button>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-slate-200/80 py-6 mt-12 text-center text-xs text-slate-500">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-3">
+      <div>
+        <span class="font-medium text-slate-700">Maganghub BUMN Explorer</span> &bull; Data resmi Program Pemagangan Kemnaker RI
+      </div>
+      <div class="flex items-center gap-4 text-slate-500">
+        <a href="https://maganghub.kemnaker.go.id" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition">Portal Kemnaker RI ↗</a>
+        <a href="/api/bumn" target="_blank" class="hover:text-slate-900 transition">Data API (JSON)</a>
+        <a href="/api/download/csv" class="hover:text-slate-900 transition">Unduh CSV</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Logic -->
+  <script>
+    let allCompanies = [];
+    let filteredCompanies = [];
+    let activeType = '';
+    let currentPage = 1;
+    const PAGE_SIZE = 24;
+
+    async function loadData() {
+      try {
+        const resp = await fetch('/api/bumn');
+        if (!resp.ok) throw new Error('Gagal mengambil data BUMN');
+        allCompanies = await resp.json();
+        
+        populateFilterOptions();
+        updateStats();
+        applyFilters();
+      } catch (err) {
+        console.error(err);
+        document.getElementById('company-grid').innerHTML = `
+          <div class="col-span-full p-8 text-center text-rose-600 bg-rose-50 rounded-xl border border-rose-200">
+            <p class="font-semibold text-sm">Gagal memuat data dari server.</p>
+            <p class="text-xs text-slate-500 mt-1">Pastikan server app.py sedang aktif.</p>
+          </div>
+        `;
+      }
+    }
+
+    function updateStats() {
+      const total = allCompanies.length;
+      const vacancies = allCompanies.reduce((acc, c) => acc + (c.vacancies || 0), 0);
+      const induk = allCompanies.filter(c => c.type && c.type.includes('Induk')).length;
+      const anak = allCompanies.filter(c => c.type && c.type.includes('Anak')).length;
+
+      document.getElementById('stat-total-companies').textContent = total.toLocaleString('id-ID');
+      document.getElementById('stat-total-vacancies').textContent = vacancies.toLocaleString('id-ID');
+      document.getElementById('stat-induk-count').textContent = induk.toLocaleString('id-ID');
+      document.getElementById('stat-anak-count').textContent = anak.toLocaleString('id-ID');
+    }
+
+    function populateFilterOptions() {
+      const clusterSelect = document.getElementById('select-cluster');
+      const citySelect = document.getElementById('select-city');
+
+      const clusters = new Set();
+      const cities = new Set();
+
+      allCompanies.forEach(c => {
+        if (c.cluster) clusters.add(c.cluster);
+        if (c.city && c.city !== 'N/A') cities.add(c.city);
+      });
+
+      Array.from(clusters).sort().forEach(cl => {
+        const opt = document.createElement('option');
+        opt.value = cl;
+        opt.textContent = cl;
+        clusterSelect.appendChild(opt);
+      });
+
+      Array.from(cities).sort().forEach(ct => {
+        const opt = document.createElement('option');
+        opt.value = ct;
+        opt.textContent = ct;
+        citySelect.appendChild(opt);
+      });
+    }
+
+    function setTypeFilter(type) {
+      activeType = type;
+      
+      const btnAll = document.getElementById('tab-all');
+      const btnInduk = document.getElementById('tab-induk');
+      const btnAnak = document.getElementById('tab-anak');
+
+      [btnAll, btnInduk, btnAnak].forEach(b => {
+        b.className = 'flex-1 py-1.5 px-2 rounded-md transition text-center text-slate-600 hover:text-slate-900';
+      });
+
+      const activeClass = 'flex-1 py-1.5 px-2 rounded-md transition text-center font-semibold bg-white text-slate-900 shadow-sm';
+      if (type === '') btnAll.className = activeClass;
+      else if (type === 'induk') btnInduk.className = activeClass;
+      else if (type === 'anak') btnAnak.className = activeClass;
+
+      currentPage = 1;
+      applyFilters();
+    }
+
+    function handleSearchInput() {
+      const val = document.getElementById('search-input').value.trim();
+      const clearBtn = document.getElementById('btn-clear-search');
+      if (val) clearBtn.classList.remove('hidden');
+      else clearBtn.classList.add('hidden');
+      currentPage = 1;
+      applyFilters();
+    }
+
+    function clearSearch() {
+      document.getElementById('search-input').value = '';
+      document.getElementById('btn-clear-search').classList.add('hidden');
+      currentPage = 1;
+      applyFilters();
+    }
+
+    function setSearch(keyword) {
+      document.getElementById('search-input').value = keyword;
+      document.getElementById('btn-clear-search').classList.remove('hidden');
+      currentPage = 1;
+      applyFilters();
+    }
+
+    function applyFilters() {
+      const query = document.getElementById('search-input').value.trim().toLowerCase();
+      const cluster = document.getElementById('select-cluster').value;
+      const city = document.getElementById('select-city').value;
+      const sort = document.getElementById('select-sort').value;
+      const vacanciesOnly = document.getElementById('check-vacancies-only').checked;
+
+      filteredCompanies = allCompanies.filter(comp => {
+        if (query) {
+          const matchName = (comp.name || '').toLowerCase().includes(query);
+          const matchDesc = (comp.description || '').toLowerCase().includes(query);
+          const matchCity = (comp.city || '').toLowerCase().includes(query);
+          const matchCluster = (comp.cluster || '').toLowerCase().includes(query);
+          if (!matchName && !matchDesc && !matchCity && !matchCluster) return false;
+        }
+
+        if (cluster && comp.cluster !== cluster) return false;
+        if (city && comp.city !== city) return false;
+
+        if (activeType === 'induk' && (!comp.type || !comp.type.includes('Induk'))) return false;
+        if (activeType === 'anak' && (!comp.type || !comp.type.includes('Anak'))) return false;
+
+        if (vacanciesOnly && (!comp.vacancies || comp.vacancies <= 0)) return false;
+
+        return true;
+      });
+
+      if (sort === 'vacancies_desc') {
+        filteredCompanies.sort((a, b) => (b.vacancies || 0) - (a.vacancies || 0) || a.name.localeCompare(b.name));
+      } else if (sort === 'name_asc') {
+        filteredCompanies.sort((a, b) => a.name.localeCompare(b.name));
+      } else if (sort === 'city_asc') {
+        filteredCompanies.sort((a, b) => (a.city || '').localeCompare(b.city || ''));
+      }
+
+      renderCurrentPage();
+    }
+
+    function renderCurrentPage() {
+      const grid = document.getElementById('company-grid');
+      const emptyState = document.getElementById('empty-state');
+      const countLabel = document.getElementById('label-result-count');
+      const vacLabel = document.getElementById('label-vacancies-count');
+      const paginationControls = document.getElementById('pagination-controls');
+
+      countLabel.textContent = filteredCompanies.length.toLocaleString('id-ID');
+      const totalVac = filteredCompanies.reduce((acc, c) => acc + (c.vacancies || 0), 0);
+      vacLabel.textContent = totalVac.toLocaleString('id-ID');
+
+      if (filteredCompanies.length === 0) {
+        grid.innerHTML = '';
+        emptyState.classList.remove('hidden');
+        paginationControls.classList.add('hidden');
+        document.getElementById('current-page-label').textContent = '0';
+        document.getElementById('total-pages-label').textContent = '0';
+        return;
+      }
+
+      emptyState.classList.add('hidden');
+      paginationControls.classList.remove('hidden');
+
+      const totalPages = Math.ceil(filteredCompanies.length / PAGE_SIZE) || 1;
+      if (currentPage > totalPages) currentPage = totalPages;
+      if (currentPage < 1) currentPage = 1;
+
+      document.getElementById('current-page-label').textContent = currentPage;
+      document.getElementById('total-pages-label').textContent = totalPages;
+
+      const startIndex = (currentPage - 1) * PAGE_SIZE;
+      const pageItems = filteredCompanies.slice(startIndex, startIndex + PAGE_SIZE);
+
+      grid.innerHTML = pageItems.map(c => {
+        const isInduk = c.type && c.type.includes('Induk');
+        const badgeTypeClass = isInduk 
+          ? 'bg-slate-100 text-slate-800 border-slate-200' 
+          : 'bg-slate-50 text-slate-600 border-slate-200';
+        const typeLabel = isInduk ? 'BUMN Induk' : 'Anak Perusahaan';
+
+        const vacancyBadge = (c.vacancies > 0)
+          ? `<span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200/80">
+               ${c.vacancies} Lowongan
+             </span>`
+          : `<span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium bg-slate-50 text-slate-400 border border-slate-200/60">
+               0 Lowongan
+             </span>`;
+
+        const initials = c.name ? c.name.split(' ').slice(0, 2).map(w => w[0]).join('').toUpperCase() : 'B';
+        const logoHtml = c.logoUrl
+          ? `<img src="${c.logoUrl}" alt="${c.name}" class="w-10 h-10 object-contain rounded-lg bg-white p-1 border border-slate-200" onerror="this.onerror=null; this.parentNode.innerHTML='<div class=\'w-10 h-10 rounded-lg bg-slate-100 text-slate-700 border border-slate-200 flex items-center justify-center font-semibold text-xs\'>${initials}</div>';">`
+          : `<div class="w-10 h-10 rounded-lg bg-slate-100 text-slate-700 border border-slate-200 flex items-center justify-center font-semibold text-xs">${initials}</div>`;
+
+        return `
+          <div class="bg-white rounded-xl border border-slate-200/90 p-4 flex flex-col justify-between hover:border-slate-300 hover:shadow-sm transition">
+            <div>
+              <!-- Top Row: Logo & Badges -->
+              <div class="flex items-start gap-3 mb-2.5">
+                <div class="shrink-0">
+                  ${logoHtml}
+                </div>
+                <div class="flex-1 min-w-0">
+                  <div class="flex items-center gap-1.5 mb-1">
+                    <span class="text-[10px] uppercase font-semibold px-1.5 py-0.5 rounded border ${badgeTypeClass}">
+                      ${typeLabel}
+                    </span>
+                  </div>
+                  <h3 class="text-xs font-semibold text-slate-900 leading-snug line-clamp-2" title="${c.name}">
+                    ${c.name}
+                  </h3>
+                </div>
+              </div>
+
+              <!-- Meta: Sektor & Lokasi -->
+              <div class="text-[11px] text-slate-500 mb-3 space-y-0.5">
+                <div class="text-slate-600 font-medium">${c.cluster || 'BUMN'}</div>
+                <div class="text-slate-400 truncate">${c.city || 'Indonesia'}</div>
+              </div>
+            </div>
+
+            <!-- Bottom Row: Vacancies & Action -->
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between gap-2">
+              <div>
+                ${vacancyBadge}
+              </div>
+              <a 
+                href="${c.url}" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-1 text-[11px] font-medium text-slate-700 hover:text-slate-900 bg-slate-50 hover:bg-slate-100 px-2.5 py-1 rounded border border-slate-200 transition"
+              >
+                <span>Lihat</span>
+                <span class="text-slate-400">&nearr;</span>
+              </a>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      renderPaginationControls(totalPages);
+    }
+
+    function renderPaginationControls(totalPages) {
+      document.getElementById('btn-prev-page').disabled = (currentPage <= 1);
+      document.getElementById('btn-next-page').disabled = (currentPage >= totalPages);
+
+      const pagesContainer = document.getElementById('pagination-pages');
+      pagesContainer.innerHTML = '';
+
+      let start = Math.max(1, currentPage - 2);
+      let end = Math.min(totalPages, currentPage + 2);
+
+      if (start > 1) {
+        addPageBtn(1);
+        if (start > 2) {
+          const dot = document.createElement('span');
+          dot.textContent = '...';
+          dot.className = 'px-1 text-slate-400';
+          pagesContainer.appendChild(dot);
+        }
+      }
+
+      for (let p = start; p <= end; p++) {
+        addPageBtn(p);
+      }
+
+      if (end < totalPages) {
+        if (end < totalPages - 1) {
+          const dot = document.createElement('span');
+          dot.textContent = '...';
+          dot.className = 'px-1 text-slate-400';
+          pagesContainer.appendChild(dot);
+        }
+        addPageBtn(totalPages);
+      }
+
+      function addPageBtn(num) {
+        const btn = document.createElement('button');
+        btn.textContent = num;
+        if (num === currentPage) {
+          btn.className = 'w-7 h-7 rounded bg-slate-900 text-white font-semibold text-xs';
+        } else {
+          btn.className = 'w-7 h-7 rounded border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 text-xs';
+          btn.onclick = () => goToPage(num);
+        }
+        pagesContainer.appendChild(btn);
+      }
+    }
+
+    function goToPage(page) {
+      currentPage = page;
+      renderCurrentPage();
+      window.scrollTo({ top: 180, behavior: 'smooth' });
+    }
+
+    function resetAllFilters() {
+      document.getElementById('search-input').value = '';
+      document.getElementById('select-cluster').value = '';
+      document.getElementById('select-city').value = '';
+      document.getElementById('select-sort').value = 'vacancies_desc';
+      document.getElementById('check-vacancies-only').checked = false;
+      document.getElementById('btn-clear-search').classList.add('hidden');
+      setTypeFilter('');
+    }
+
+    async function triggerRefresh() {
+      const btn = document.getElementById('btn-refresh');
+      const icon = document.getElementById('refresh-icon');
+      const text = document.getElementById('refresh-text');
+
+      btn.disabled = true;
+      icon.classList.add('animate-spin');
+      text.textContent = 'Memperbarui...';
+
+      try {
+        const resp = await fetch('/api/rescrape', { method: 'POST' });
+        const res = await resp.json();
+        alert(`Sinkronisasi selesai! Berhasil memperbarui ${res.total_companies} data BUMN.`);
+        await loadData();
+      } catch (err) {
+        alert('Gagal memperbarui data: ' + err.message);
+      } finally {
+        btn.disabled = false;
+        icon.classList.remove('animate-spin');
+        text.textContent = 'Sinkron Data';
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', loadData);
+  </script>
+</body>
+</html>
