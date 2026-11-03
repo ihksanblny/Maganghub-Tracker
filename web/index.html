@@ -298,9 +298,10 @@
 
     async function loadData() {
       try {
-        let resp = await fetch('/api/bumn');
+        const cacheBuster = `?t=${Date.now()}`;
+        let resp = await fetch('/api/bumn' + cacheBuster);
         if (!resp.ok) {
-          resp = await fetch('/data/bumn_maganghub.json');
+          resp = await fetch('/data/bumn_maganghub.json' + cacheBuster);
         }
         if (!resp.ok) throw new Error('Gagal mengambil data BUMN');
         allCompanies = await resp.json();
@@ -410,11 +411,10 @@
 
       filteredCompanies = allCompanies.filter(comp => {
         if (query) {
-          const matchName = (comp.name || '').toLowerCase().includes(query);
-          const matchDesc = (comp.description || '').toLowerCase().includes(query);
-          const matchCity = (comp.city || '').toLowerCase().includes(query);
-          const matchCluster = (comp.cluster || '').toLowerCase().includes(query);
-          if (!matchName && !matchDesc && !matchCity && !matchCluster) return false;
+          const words = query.split(/\s+/).filter(Boolean);
+          const fullText = `${comp.name || ''} ${comp.description || ''} ${comp.city || ''} ${comp.cluster || ''}`.toLowerCase();
+          const matchAllWords = words.every(w => fullText.includes(w));
+          if (!matchAllWords) return false;
         }
 
         if (cluster && comp.cluster !== cluster) return false;
