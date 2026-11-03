@@ -62,6 +62,36 @@ Hasil scraping akan otomatis diperbarui di:
 
 ---
 
+## ☁️ Cara Deploy ke Vercel (Gratis & Cepat)
+
+Proyek ini telah dikonfigurasi (`vercel.json` dan `index.html`) agar dapat langsung di-deploy ke **Vercel** sebagai aplikasi static edge dengan performa instan tanpa biaya server.
+
+### Cara 1: Menggunakan GitHub (Paling Direkomendasikan)
+1. Buat repository baru di akun GitHub Anda (misal: `maganghub-bumn`).
+2. Push seluruh folder proyek ini ke repository tersebut:
+   ```bash
+   git init
+   git add .
+   git commit -m "feat: initial commit maganghub bumn finder"
+   git branch -M main
+   git remote add origin https://github.com/<username-kamu>/maganghub-bumn.git
+   git push -u origin main
+   ```
+3. Buka [vercel.com](https://vercel.com) dan login menggunakan akun GitHub.
+4. Klik **Add New...** -> **Project**.
+5. Pilih repository `maganghub-bumn`, biarkan semua konfigurasi default (Framework: *Other*), lalu klik **Deploy**.
+6. Website akan langsung aktif dalam hitungan detik dengan domain `https://maganghub-bumn.vercel.app`!
+7. *(Opsional)* File `.github/workflows/update-data.yml` sudah disiapkan agar data otomatis diperbarui setiap hari Senin pagi via GitHub Actions dan memicu redeploy otomatis di Vercel.
+
+### Cara 2: Menggunakan Vercel CLI
+Jika Anda sudah menginstal Node.js dan Vercel CLI:
+```bash
+npx vercel
+```
+Ikuti instruksi di terminal (tekan Enter untuk opsi default). Selesai!
+
+---
+
 ## 📂 Struktur File
 
 ```

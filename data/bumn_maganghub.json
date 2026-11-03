@@ -2,7 +2,7 @@
   {
     "id": "a74d15fb-e54d-446d-9ab8-6936925723ca",
     "name": "Pal Indonesia",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Manufaktur, Pertahanan & Jasa Lainnya",
     "matched_keyword": "pal indonesia",
     "vacancies": 240,
@@ -94,7 +94,7 @@
     "id": "7b3e9c64-5731-49d6-92c4-b2b49fe9a1e3",
     "name": "Mass Rapid Transit Jakarta Perseroda",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 119,
     "city": "Kota Adm. Jakarta Pusat",
@@ -132,7 +132,7 @@
   {
     "id": "acd524b7-e129-4540-b671-b13cf4e2cbc3",
     "name": "PT Kimia Farma Tbk",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Kesehatan & Farmasi",
     "matched_keyword": "kimia farma",
     "vacancies": 102,
@@ -198,12 +198,12 @@
     "id": "5671ca67-3d09-4a68-9d2e-ee1add977d03",
     "name": "Perusahaan Perseroan (Persero) PT. Asuransi Kredit Indonesia",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 83,
     "city": "Kota Adm. Jakarta Pusat",
     "address": "Graha Askrindo Jl. Angkasa Blok B-9 Kav. 8",
-    "description": "$29",
+    "description": "$2f",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/5671ca67-3d09-4a68-9d2e-ee1add977d03/61a98af7a7e16.jpg",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-pt-asuransi-kredit-indonesia-5671ca67-3d09-4a68-9d2e-ee1add977d03"
   },
@@ -249,7 +249,7 @@
   {
     "id": "f0ed8ecf-2f35-48c7-b933-23c9e7a6f1c7",
     "name": "PT Semen Indonesia Logistik",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Infrastruktur, Karya & Semen",
     "matched_keyword": "semen indonesia",
     "vacancies": 58,
@@ -275,7 +275,7 @@
   {
     "id": "fa45aeff-c8cc-436f-ab73-61831b17a84d",
     "name": "Perusahaan Umum (Perum) Jasa Tirta I",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Pangan, Pertanian & Kehutanan",
     "matched_keyword": "jasa tirta",
     "vacancies": 51,
@@ -340,13 +340,13 @@
   {
     "id": "019f4ac5-f358-72b1-a136-74878ac6f816",
     "name": "PT. Bank Syariah Indonesia.tbk",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "bank syariah indonesia",
     "vacancies": 48,
     "city": "Kota Adm. Jakarta Selatan",
     "address": "Gedung The Tower Jl. Gatot Subroto No.27",
-    "description": "$33",
+    "description": "$30",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/a4bf4eb0-94fa-4f57-aab9-22de7fb4dc32/60504f360986b.jpeg",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-bank-syariah-indonesia-tbk-019f4ac5-f358-72b1-a136-74878ac6f816"
   },
@@ -392,7 +392,7 @@
   {
     "id": "019f20f3-3202-725d-bbbf-2828478ff1e8",
     "name": "PT Pegadaian",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "pegadaian",
     "vacancies": 42,
@@ -405,7 +405,7 @@
   {
     "id": "019f3b4f-fb12-71f9-a9c6-471f7adad71d",
     "name": "Kimia Farma Apotek",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Kesehatan & Farmasi",
     "matched_keyword": "kimia farma",
     "vacancies": 41,
@@ -431,7 +431,7 @@
   {
     "id": "d830c055-90ca-437b-8a48-a4bf2d16472c",
     "name": "Kimia Farma Apotek",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Kesehatan & Farmasi",
     "matched_keyword": "kimia farma",
     "vacancies": 40,
@@ -445,7 +445,7 @@
     "id": "06a78f24-4675-46e1-bb56-20efb6461a5e",
     "name": "Perusahaan Perseroan (Persero) PT Industri Kereta Api",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 40,
     "city": "Kota Madiun",
@@ -457,7 +457,7 @@
   {
     "id": "5d999a72-75d3-42cf-b75e-f0563af51481",
     "name": "Kimia Farma Diagnostika",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Kesehatan & Farmasi",
     "matched_keyword": "kimia farma",
     "vacancies": 39,
@@ -470,7 +470,7 @@
   {
     "id": "01a04783-0f6b-7334-bfdb-6575f680536a",
     "name": "PT. Bank Syariah Indonesia.tbk",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "bank syariah indonesia",
     "vacancies": 38,
@@ -484,7 +484,7 @@
     "id": "43a052d1-fe19-40c0-b189-33948ea13895",
     "name": "PT Agrinas Jaladri Nusantara (Persero)",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 37,
     "city": "Kota Adm. Jakarta Selatan",
@@ -497,7 +497,7 @@
     "id": "f6c564a0-46ab-485d-918b-eca5539ccc1f",
     "name": "Perusahaan Perseroan (Persero) PT Industri Kapal Indonesia",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 37,
     "city": "Kota Makassar",
@@ -522,7 +522,7 @@
   {
     "id": "019f3b3e-8859-7025-b6ef-6dfb958d83a8",
     "name": "Kimia Farma Apotek",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Kesehatan & Farmasi",
     "matched_keyword": "kimia farma",
     "vacancies": 35,
@@ -652,7 +652,7 @@
   {
     "id": "019f1644-b132-7036-a937-aed61d90d1ab",
     "name": "PT Pegadaian Galeri Dua Empat",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "pegadaian",
     "vacancies": 29,
@@ -678,7 +678,7 @@
   {
     "id": "32929694-3213-4a86-bd5f-7b712e028388",
     "name": "Kimia Farma Trading & Distribution",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Kesehatan & Farmasi",
     "matched_keyword": "kimia farma",
     "vacancies": 28,
@@ -723,7 +723,7 @@
     "vacancies": 28,
     "city": "Kota Adm. Jakarta Pusat",
     "address": "Grha BNI, Jl. Jenderal Sudirman Kavling 1, Desa/Kelurahan Karet Tengsin, Kec. Tanah Abang, Kota Adm. Jakarta Pusat, Provinsi DKI\nJakarta",
-    "description": "$35",
+    "description": "$2f",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/d9165884-e603-4ae1-98fc-f646d07273ca/63983081c253b.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-d9165884-e603-4ae1-98fc-f646d07273ca"
   },
@@ -769,7 +769,7 @@
   {
     "id": "c53fc841-356c-4f41-b16e-d181b28e34b2",
     "name": "Sinergi Informatika Semen Indonesia",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Infrastruktur, Karya & Semen",
     "matched_keyword": "semen indonesia",
     "vacancies": 27,
@@ -835,7 +835,7 @@
     "id": "d5c9bf39-b11e-41a8-b219-3f704aac1899",
     "name": "Perum Percetakan Uang Ri",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 26,
     "city": "Kota Adm. Jakarta Selatan",
@@ -861,7 +861,7 @@
     "id": "40f0ce60-9cc6-46c9-bf84-1bdeb5246c65",
     "name": "PT Reasuransi Indonesia Utama (Persero)",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 25,
     "city": "Kota Adm. Jakarta Pusat",
@@ -925,7 +925,7 @@
   {
     "id": "6fd7d286-afcd-4323-bc88-22dc4c8d5d00",
     "name": "Kimia Farma Apotek",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Kesehatan & Farmasi",
     "matched_keyword": "kimia farma",
     "vacancies": 23,
@@ -964,7 +964,7 @@
   {
     "id": "108d37cf-f6bd-495b-bd3e-839cf3b37487",
     "name": "Perhutani",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Pangan, Pertanian & Kehutanan",
     "matched_keyword": "perhutani",
     "vacancies": 22,
@@ -1017,7 +1017,7 @@
     "id": "2b4e85c2-1760-4397-9ae3-05552b1c9468",
     "name": "Perusahaan Perseroan (Persero) PT Asuransi Jasa Indonesia",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 21,
     "city": "Kota Adm. Jakarta Pusat",
@@ -1055,7 +1055,7 @@
   {
     "id": "c75dfded-7685-4c55-809b-04dd387c6ebd",
     "name": "PT Pegadaian Kantor Wilayah X",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "pegadaian",
     "vacancies": 20,
@@ -1068,7 +1068,7 @@
   {
     "id": "a0a291bb-4296-4425-a278-0ee75b9b442c",
     "name": "PT Perhutani Alam Wisata Risorsis",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Pangan, Pertanian & Kehutanan",
     "matched_keyword": "perhutani",
     "vacancies": 20,
@@ -1108,7 +1108,7 @@
     "id": "01a023d7-89f3-728a-aed5-608fe1b6c429",
     "name": "Kawasan Industri Medan",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 19,
     "city": "Kab. Deli Serdang",
@@ -1120,7 +1120,7 @@
   {
     "id": "c3c3e0dd-f95c-4024-8be1-7c44428b2f6a",
     "name": "PT Pertamina Lubricants",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Energi, Minyak & Tambang",
     "matched_keyword": "pertamina",
     "vacancies": 19,
@@ -1146,7 +1146,7 @@
   {
     "id": "9ced402a-c630-4c66-b41d-c3d9eff8b80c",
     "name": "PT. Pegadaian Kantor Wilayah XI Semarang",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "pegadaian",
     "vacancies": 19,
@@ -1224,7 +1224,7 @@
   {
     "id": "019f5e59-e7a6-7109-980d-defa089583b5",
     "name": "PT. Bank Syariah Indonesia.tbk",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "bank syariah indonesia",
     "vacancies": 18,
@@ -1302,7 +1302,7 @@
   {
     "id": "45a191a2-4b59-4ef4-ab87-79591ccd74d6",
     "name": "Rumah Sakit Bakti Timah Karimun",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Energi, Minyak & Tambang",
     "matched_keyword": "timah",
     "vacancies": 17,
@@ -1316,7 +1316,7 @@
     "id": "5987d558-7254-4183-add7-b2a28e8936dd",
     "name": "Bina Karya (Persero)",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 16,
     "city": "Kota Adm. Jakarta Timur",
@@ -1328,7 +1328,7 @@
   {
     "id": "019f3b5e-6ea8-7386-a0d4-b0a248447c16",
     "name": "Kimia Farma Apotek",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Kesehatan & Farmasi",
     "matched_keyword": "kimia farma",
     "vacancies": 16,
@@ -1341,7 +1341,7 @@
   {
     "id": "6a440b35-3d6d-4535-a433-04b7ceb6f934",
     "name": "Kimia Farma Apotek",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Kesehatan & Farmasi",
     "matched_keyword": "kimia farma",
     "vacancies": 16,
@@ -1386,7 +1386,7 @@
     "vacancies": 15,
     "city": "Kota Banda Aceh",
     "address": "Jl. Sekolah No.5 Gampoeng Ateuk Pahlawan Kecamatan Baiturrahman, Kota Banda Aceh, Aceh",
-    "description": "$35",
+    "description": "$2f",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/047004e7-811a-485c-bd62-a8a60bb24d77/6707706676427.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-rosnati-rs-pertamedika-ummi-rosnati-49db72df-2ba5-43fa-889f-5557b5785700"
   },
@@ -1406,7 +1406,7 @@
   {
     "id": "ad258be8-b12d-4f74-ad7c-5fe6b16ce08c",
     "name": "PT Surveyor Indonesia Cabang Makassar",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Manufaktur, Pertahanan & Jasa Lainnya",
     "matched_keyword": "surveyor indonesia",
     "vacancies": 15,
@@ -1458,7 +1458,7 @@
   {
     "id": "019f3b57-847a-73a2-82e0-4f565ff16934",
     "name": "Kimia Farma Apotek",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Kesehatan & Farmasi",
     "matched_keyword": "kimia farma",
     "vacancies": 14,
@@ -1510,7 +1510,7 @@
   {
     "id": "01a040db-0369-7233-96ca-00a91ef81458",
     "name": "PT Pelindo Husada Citra",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
     "matched_keyword": "pelindo",
     "vacancies": 14,
@@ -1523,7 +1523,7 @@
   {
     "id": "e640226a-47dc-4df7-9cf0-d8745f1080dc",
     "name": "PT Telkom Regional 4 Witel Semarang",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Telekomunikasi & Digital",
     "matched_keyword": "telkom",
     "vacancies": 14,
@@ -1549,7 +1549,7 @@
   {
     "id": "90f84812-32de-4872-86e8-67d5b935aa44",
     "name": "Rumah Sakit Bakti Timah Sungailiat",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Energi, Minyak & Tambang",
     "matched_keyword": "timah",
     "vacancies": 14,
@@ -1601,7 +1601,7 @@
   {
     "id": "01a018e3-2761-7087-82e5-7ffce7e969cb",
     "name": "PT Perhutani Alam Wisata Risorsis - Timur",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Pangan, Pertanian & Kehutanan",
     "matched_keyword": "perhutani",
     "vacancies": 13,
@@ -1614,7 +1614,7 @@
   {
     "id": "019f59b5-1489-712d-9920-ff036776d73c",
     "name": "PT Semen Indonesia Distributor",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Infrastruktur, Karya & Semen",
     "matched_keyword": "semen indonesia",
     "vacancies": 13,
@@ -1633,7 +1633,7 @@
     "vacancies": 13,
     "city": "Kota Adm. Jakarta Selatan",
     "address": "Waskita Rajawali Tower, Jl. Letjen M.T. Haryono, RW.6",
-    "description": "$2f",
+    "description": "$25",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/cf31b0ff-ded0-4c2c-b995-b8f82ffdbf22/69e5976237c8c.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-pt-perusahaan-perkembangan-ekonomi-nasional-rajawali-nusantara-indonesia-cf31b0ff-ded0-4c2c-b995-b8f82ffdbf22"
   },
@@ -1666,7 +1666,7 @@
   {
     "id": "3851cba2-631b-45c9-830e-a576522cc7bd",
     "name": "Asuransi Kerugian Jasa Raharja",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "jasa raharja",
     "vacancies": 12,
@@ -1675,6 +1675,19 @@
     "description": "Jasa Raharja merupakan perusahaan BUMN dengan bidang usaha Asuransi Sosial yang memberikan perlindungan dasar kepada masyarakat melalui 2 (dua) program pertanggungan :\n1. Asuransi Kecelakaan Penumpang Alat Angkutan Umum berdasarkan UU No.33 Tahun 1964 tentang Dana Pertanggungan Wajib Kecelakaan Penumpang;\n2. Asuransi Tanggung Jawab Menurut Hukum Terhadap Pihak Ketiga berdasarkan UU No. 34 Tahun 1964 tentang Dana Kecelakaan Lalu Lintas Jalan",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/3851cba2-631b-45c9-830e-a576522cc7bd/68e36f6b97aff.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/asuransi-kerugian-jasa-raharja-3851cba2-631b-45c9-830e-a576522cc7bd"
+  },
+  {
+    "id": "f89b04b3-953b-4604-bec2-7868140f2e09",
+    "name": "Bank Perekonomian Rakyat Syariah Sukowati Sragen (Perseroda)",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "BUMN / BUMD Lainnya",
+    "matched_keyword": null,
+    "vacancies": 12,
+    "city": "Kab. Sragen",
+    "address": "JL.RAYA SUKOWATI NO. 348 SRAGEN",
+    "description": "Bank Syariah Sragen merupakan salah satu Badan Usaha Milik Daerah (BUMD) milik Pemerintah Kabupaten Sragen. Kantor pusatnya berlokasi di Pungkruk, Sidoharjo, dan saat ini telah memiliki 10 jaringan kantor yang tersebar di lima kabupaten, yaitu Sragen, Karanganyar, Wonogiri, Grobogan, dan Boyolali.\n\nSejak berdiri pada tanggal 2 Juni 2008, Bank Syariah Sragen terus tumbuh dan berkembang hingga kini menjadi BPR Syariah dengan aset terbesar di wilayah Jawa Tengah dan Daerah Istimewa Yogyakarta (DIY).",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/df88de98-dd38-460e-a4e9-c1da093925c1/69140f83ae2f7.png",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/bank-perekonomian-rakyat-syariah-sukowati-sragen-perseroda-f89b04b3-953b-4604-bec2-7868140f2e09"
   },
   {
     "id": "01a04675-179b-731f-999d-2993091808fe",
@@ -1692,7 +1705,7 @@
   {
     "id": "c9a1cd0c-f629-4758-9f0c-0211edbf4c01",
     "name": "PT. Surveyor Indonesia Cabang Surabaya",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Manufaktur, Pertahanan & Jasa Lainnya",
     "matched_keyword": "surveyor indonesia",
     "vacancies": 12,
@@ -1745,7 +1758,7 @@
     "id": "01a138ca-3d51-7365-b7ce-89ca3702cb19",
     "name": "PT Geo Dipa Energi ( Persero ) Unit Dieng",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 11,
     "city": "Kab. Banjarnegara",
@@ -1770,7 +1783,7 @@
   {
     "id": "c19826b2-30d9-4b88-b688-223f3df999c5",
     "name": "PT Pegadaian Kantior Wilayah V Manado",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "pegadaian",
     "vacancies": 11,
@@ -1874,7 +1887,7 @@
   {
     "id": "599c8f4b-1183-42d0-9dea-942d71638730",
     "name": "Pupuk Indonesia Niaga",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Pangan, Pertanian & Kehutanan",
     "matched_keyword": "pupuk indonesia",
     "vacancies": 11,
@@ -1939,7 +1952,7 @@
   {
     "id": "01a023d4-04c3-7135-9c77-1037dd596ef7",
     "name": "PT. Bank Syariah Indonesia.tbk",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "bank syariah indonesia",
     "vacancies": 10,
@@ -1948,6 +1961,19 @@
     "description": "",
     "logoUrl": "",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-bank-syariah-indonesia-tbk-01a023d4-04c3-7135-9c77-1037dd596ef7"
+  },
+  {
+    "id": "01a0f65f-4b84-70c4-a02f-61bf7ee298d0",
+    "name": "Pelabuhan Karimun (Perseroda)",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "Perbankan & Jasa Keuangan",
+    "matched_keyword": "mandiri",
+    "vacancies": 10,
+    "city": "Kab. Karimun",
+    "address": "JL.PELABUHAN CARGO PARIT RAMPAK,",
+    "description": "PT. Pelabuhan Karimun (Perseroda) sebelumnya bernama PT. Karya Karimun Mandiri BUMD Kepelabuhanan Kabupaten Karimun Berdasarkan Akta Perubahan Notaris, PT. Pelabuhan Karimun (Perseroda) merupakan perusahaan perseroan daerah yang berfokus pada pengelolaan pelabuhan dan jasa terkait di wilayah Karimun, Kepulauan Riau. Perusahaan ini berperan penting dalam mendukung kegiatan ekonomi lokal dan nasional, terutama dalam bidang transportasi dan logistik.",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/34c06d7b-ffde-43db-b3c6-d36e0f6a1e59/67a57305b4a89.jpg",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pelabuhan-karimun-perseroda-01a0f65f-4b84-70c4-a02f-61bf7ee298d0"
   },
   {
     "id": "01a17bb3-e268-7178-9998-036cf40db134",
@@ -1991,7 +2017,7 @@
   {
     "id": "019f59ca-57da-7317-a058-752c8a260838",
     "name": "KIMIA FARMA APOTEK",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Kesehatan & Farmasi",
     "matched_keyword": "kimia farma",
     "vacancies": 9,
@@ -2004,7 +2030,7 @@
   {
     "id": "019f45e0-9582-716f-a642-9c58c77a9576",
     "name": "Kimia Farma Apotek",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Kesehatan & Farmasi",
     "matched_keyword": "kimia farma",
     "vacancies": 9,
@@ -2069,13 +2095,13 @@
   {
     "id": "27409d7d-b3c5-4246-bcc5-d9cb6ad491bb",
     "name": "PT Pegadaian Kantor Wilayah III Palembang",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "pegadaian",
     "vacancies": 9,
     "city": "Kota Palembang",
     "address": "Jl. Merdeka No.11 Palembang-30132, Sumatera Selatan",
-    "description": "$34",
+    "description": "$2f",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/315cb472-12e2-4119-817e-b55132b9bce7/6487b72fee0e3.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-pegadaian-kantor-wilayah-iii-palembang-27409d7d-b3c5-4246-bcc5-d9cb6ad491bb"
   },
@@ -2095,7 +2121,7 @@
   {
     "id": "019f4aed-3fbe-720b-9450-d9dbb41f7aec",
     "name": "PT. Bank Syariah Indonesia - Area Banten",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "bank syariah indonesia",
     "vacancies": 9,
@@ -2134,7 +2160,7 @@
   {
     "id": "13b1282f-c13c-463e-bc82-f2e3dfc48861",
     "name": "Arjuna Wijaya Karya",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Infrastruktur, Karya & Semen",
     "matched_keyword": "wijaya karya",
     "vacancies": 8,
@@ -2148,7 +2174,7 @@
     "id": "01a15341-71bc-73b3-9b55-2b1dcb24a791",
     "name": "Inka Multi Solusi Trading",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 8,
     "city": "Kota Madiun",
@@ -2199,7 +2225,7 @@
   {
     "id": "71de7a4d-8135-4ad4-8853-e42f3e35f51e",
     "name": "PT Pegadaian Kantor Wilayah IV Balikpapan",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "pegadaian",
     "vacancies": 8,
@@ -2212,7 +2238,7 @@
   {
     "id": "019f6452-0a0c-71d8-b106-29f1dc77f0fd",
     "name": "PT Pegadaian Kantor Wilayah VII Denpasar",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "pegadaian",
     "vacancies": 8,
@@ -2238,7 +2264,7 @@
   {
     "id": "eca3ca69-152e-4592-82fc-bb898767db7c",
     "name": "PT Telkomsel Regional Sumbagsel",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Telekomunikasi & Digital",
     "matched_keyword": "telkomsel",
     "vacancies": 8,
@@ -2251,7 +2277,7 @@
   {
     "id": "a704e858-7a92-4dcd-baa5-3c4bad62e25f",
     "name": "PT Telkomsel Regional Sumbagteng",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Telekomunikasi & Digital",
     "matched_keyword": "telkomsel",
     "vacancies": 8,
@@ -2277,7 +2303,7 @@
   {
     "id": "019f463d-fcc9-7270-97dc-293288af0cd8",
     "name": "PT. Bank Syariah Indonesia.tbk",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "bank syariah indonesia",
     "vacancies": 8,
@@ -2316,7 +2342,7 @@
   {
     "id": "3741be21-3f36-4b7d-9cac-395fd25257a6",
     "name": "PT.surveyor Indonesia",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Manufaktur, Pertahanan & Jasa Lainnya",
     "matched_keyword": "surveyor indonesia",
     "vacancies": 8,
@@ -2335,7 +2361,7 @@
     "vacancies": 8,
     "city": "Kota Jayapura",
     "address": "Jl. Raya Kelapa Dua Entrop",
-    "description": "$31",
+    "description": "$30",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/47585514-0aa0-4863-acda-cb24ff8515e2/6a857bde24a53.jpg",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-01a03c63-dec8-70bb-a9ef-fa00838297f5"
   },
@@ -2343,7 +2369,7 @@
     "id": "66ca8265-845e-4c4e-8ed2-3ed8b0c50711",
     "name": "Produksi Film Negara (Persero)",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 8,
     "city": "Kota Adm. Jakarta Timur",
@@ -2381,7 +2407,7 @@
   {
     "id": "fb8905f6-295a-41eb-a54b-3d0b3f2bb0d3",
     "name": "Rumah Sakit Bakti Timah Muntok",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Energi, Minyak & Tambang",
     "matched_keyword": "timah",
     "vacancies": 8,
@@ -2511,7 +2537,7 @@
   {
     "id": "01a161ff-ed31-738d-89fa-dec9c95dc6a9",
     "name": "PT Timah Tbk",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Energi, Minyak & Tambang",
     "matched_keyword": "timah",
     "vacancies": 7,
@@ -2524,7 +2550,7 @@
   {
     "id": "019f65dc-92b9-7213-afc4-aa328a70cb0f",
     "name": "PT. Bank Syariah Indonesia.tbk",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "bank syariah indonesia",
     "vacancies": 7,
@@ -2537,7 +2563,7 @@
   {
     "id": "019f5a66-6eab-73a1-a4f6-dc44c3d7f35f",
     "name": "PT. Bank Syariah Indonesia.tbk",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "bank syariah indonesia",
     "vacancies": 7,
@@ -2550,7 +2576,7 @@
   {
     "id": "1c910eb5-5515-4816-9acd-266aec6d8ed4",
     "name": "Pelindo Marine Service",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
     "matched_keyword": "pelindo",
     "vacancies": 7,
@@ -2589,7 +2615,7 @@
   {
     "id": "9b0174da-7553-4f73-a26d-f72a6ef51a91",
     "name": "Rumah Sakit Bakti Timah Pangkalpinang",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Energi, Minyak & Tambang",
     "matched_keyword": "timah",
     "vacancies": 7,
@@ -2719,7 +2745,7 @@
   {
     "id": "2d2c192c-ff50-4dbc-a3fb-af9a5ed839b7",
     "name": "Jasa Tirta Luhur",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Pangan, Pertanian & Kehutanan",
     "matched_keyword": "jasa tirta",
     "vacancies": 6,
@@ -2849,7 +2875,7 @@
   {
     "id": "01a03dbf-04bd-7355-bd18-c59faa75e9c4",
     "name": "PT. Bank Syariah Indonesia.tbk",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "bank syariah indonesia",
     "vacancies": 6,
@@ -2862,7 +2888,7 @@
   {
     "id": "2bce69dd-ef65-46e4-80b3-2736078b8bd4",
     "name": "PT. Pegadaian Kantor Wilayah IX Jakarta 2",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "pegadaian",
     "vacancies": 6,
@@ -2875,7 +2901,7 @@
   {
     "id": "b603b0ed-b542-43a3-89ed-c841138f3cc8",
     "name": "Pelindo Multi Terminal",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
     "matched_keyword": "pelindo",
     "vacancies": 6,
@@ -2914,7 +2940,7 @@
   {
     "id": "01a11ed0-6115-7308-a5b5-b83a1b0f70eb",
     "name": "Puskesmas Perumnas Utara",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Infrastruktur, Karya & Semen",
     "matched_keyword": "perumnas",
     "vacancies": 6,
@@ -2954,7 +2980,7 @@
     "id": "01a182b7-c081-7068-87df-67b59f5f6613",
     "name": "Jakarta Propertindo Perseroda (Aston Pluit Hotel & Residence)",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 5,
     "city": "Kota Adm. Jakarta Utara",
@@ -3031,7 +3057,7 @@
   {
     "id": "01a05a75-ceb5-70c5-9c79-6a8ca7cf08d2",
     "name": "PT Pelindo Terminal Petikemas",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
     "matched_keyword": "pelindo",
     "vacancies": 5,
@@ -3083,7 +3109,7 @@
   {
     "id": "01a04884-bc53-72a7-989a-f2895f2822b7",
     "name": "PT. Bank Syariah Indonesia.tbk",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "bank syariah indonesia",
     "vacancies": 5,
@@ -3096,7 +3122,7 @@
   {
     "id": "e0b5f3dd-94af-4cfb-b874-dc72e07dc828",
     "name": "Pelindo Multi Terminal",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
     "matched_keyword": "pelindo",
     "vacancies": 5,
@@ -3201,7 +3227,7 @@
     "id": "0eabfdc6-a0ce-41cb-bfad-00b4b015d3d6",
     "name": "Bank Perekonomian Rakyat Jwalita Trenggalek Perseroda",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 4,
     "city": "Kab. Trenggalek",
@@ -3239,7 +3265,7 @@
   {
     "id": "7340a8f5-9d90-4fe9-8991-a19c9c5d08f6",
     "name": "Bulog",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Pangan, Pertanian & Kehutanan",
     "matched_keyword": "bulog",
     "vacancies": 4,
@@ -3271,7 +3297,7 @@
     "vacancies": 4,
     "city": "Kota Depok",
     "address": "Jl. Margonda Raya No. 209, Kel. Kemiri Muka, Kec. Beji, Kota Depok, Jawa Barat",
-    "description": "$32",
+    "description": "$2f",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/9f3084eb-29d2-4929-b4c7-8e1c286c895e/61a59b5c42597.jpeg",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-bank-syariah-indonesia-tbk-019f49ad-15f4-721a-8d49-8a1262e85a3f"
   },
@@ -3291,7 +3317,7 @@
   {
     "id": "01a05800-cce7-7013-b3b6-8877a13ee55d",
     "name": "PT Perhutani Alam Wisata Risorsis - Barat",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Pangan, Pertanian & Kehutanan",
     "matched_keyword": "perhutani",
     "vacancies": 4,
@@ -3330,7 +3356,7 @@
   {
     "id": "01a0333e-609f-725f-8431-88e6ac500e30",
     "name": "PT. Bank Syariah Indonesia.tbk",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "bank syariah indonesia",
     "vacancies": 4,
@@ -3343,7 +3369,7 @@
   {
     "id": "019f5f93-205e-7036-a87d-0100f31ea4f4",
     "name": "PT. Bank Syariah Indonesia.tbk",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "bank syariah indonesia",
     "vacancies": 4,
@@ -3395,7 +3421,7 @@
   {
     "id": "efaa4969-4a25-4494-ab5a-06f50f993f00",
     "name": "Pembangunan Perumahan Nasional",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Infrastruktur, Karya & Semen",
     "matched_keyword": "pembangunan perumahan",
     "vacancies": 4,
@@ -3538,7 +3564,7 @@
   {
     "id": "01a176cf-123a-711c-8251-ff59362c1667",
     "name": "Upt Puskesmas Perumnas 1",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Infrastruktur, Karya & Semen",
     "matched_keyword": "perumnas",
     "vacancies": 4,
@@ -3551,7 +3577,7 @@
   {
     "id": "5f2bf3d7-005e-46e3-a14b-bd98b28ea335",
     "name": "Wijaya Karya Realty",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Infrastruktur, Karya & Semen",
     "matched_keyword": "wijaya karya",
     "vacancies": 4,
@@ -3604,7 +3630,7 @@
     "id": "019f40e7-efeb-7208-91d6-ea199f4650ab",
     "name": "Batam Terminal Petikemas",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 3,
     "city": "Kota Batam",
@@ -3642,7 +3668,7 @@
   {
     "id": "78493bd6-9e18-4960-9fd5-e96e0c9df600",
     "name": "Inti Pindad Mitra Sejati",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Manufaktur, Pertahanan & Jasa Lainnya",
     "matched_keyword": "pindad",
     "vacancies": 3,
@@ -3655,7 +3681,7 @@
   {
     "id": "01a11a1d-4ec2-72ba-9f97-241a87a7cae8",
     "name": "Klinik Bakti Timah Tanjung Pandan",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Energi, Minyak & Tambang",
     "matched_keyword": "timah",
     "vacancies": 3,
@@ -3785,7 +3811,7 @@
   {
     "id": "a448264c-f373-4e4c-88f5-19cbbd59a185",
     "name": "PT Telkomsel Branch Jayapura",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Telekomunikasi & Digital",
     "matched_keyword": "telkomsel",
     "vacancies": 3,
@@ -3798,7 +3824,7 @@
   {
     "id": "01a01963-9c07-724e-90e7-d1ade15c5f33",
     "name": "PT Wijaya Karya Realty (Best Western The Lagoon Hotel)",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Infrastruktur, Karya & Semen",
     "matched_keyword": "wijaya karya",
     "vacancies": 3,
@@ -3889,7 +3915,7 @@
   {
     "id": "019f63a1-e3ab-70e2-b2ad-0dfc014ef7c0",
     "name": "PT. Bank Syariah Indonesia.tbk",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "bank syariah indonesia",
     "vacancies": 3,
@@ -3902,7 +3928,7 @@
   {
     "id": "01a15714-2830-70f6-ad80-03e1111e7d3c",
     "name": "PT. Bank Syariah Indonesia.tbk",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "bank syariah indonesia",
     "vacancies": 3,
@@ -3937,6 +3963,58 @@
     "description": "PT Bank Negara Indonesia (Persero) Tbk atau BNI adalah Bank BUMN (Badan Usaha Milik Negara) pertama yang menjadi perusahaan publik. BNI didirikan pada tanggal 5 Juli 1946.",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/4ca87a53-9ec1-4459-b311-ba068d73f9cd/69e892379740e.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-019f645a-490d-73e7-b0a1-9f05dd979917"
+  },
+  {
+    "id": "781e39c8-3772-4187-8be7-417b30b1d7c7",
+    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "Perbankan & Jasa Keuangan",
+    "matched_keyword": "bank negara indonesia",
+    "vacancies": 3,
+    "city": "Kab. Sidoarjo",
+    "address": "JL. JENGGOLO NO. 47-51",
+    "description": "PT Bank Negara Indonesia (Persero) Tbk, atau biasa disingkat BNI, adalah salah satu Badan Usaha Milik Negara (BUMN) terbesar di Indonesia",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/781e39c8-3772-4187-8be7-417b30b1d7c7/6abcddf79e926.png",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-781e39c8-3772-4187-8be7-417b30b1d7c7"
+  },
+  {
+    "id": "902e8379-d65a-41f5-9e08-9c83ebbd0bcb",
+    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "Perbankan & Jasa Keuangan",
+    "matched_keyword": "bank negara indonesia",
+    "vacancies": 3,
+    "city": "Kota Makassar",
+    "address": "Jl. Padjonga Dg. Ngalle No. 59 B-C",
+    "description": "$30",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/902e8379-d65a-41f5-9e08-9c83ebbd0bcb/6a47271c803d5.png",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-902e8379-d65a-41f5-9e08-9c83ebbd0bcb"
+  },
+  {
+    "id": "d8672817-222f-40f3-a58d-a30e61c412a4",
+    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "Perbankan & Jasa Keuangan",
+    "matched_keyword": "bank negara indonesia",
+    "vacancies": 3,
+    "city": "Kab. Kendal",
+    "address": "JL. Pemuda No.15A",
+    "description": "BNI (PT Bank Negara Indonesia (Persero) Tbk) adalah salah satu bank terbesar di Indonesia yang didirikan pada 5 Juli 1946, awalnya sebagai bank sentral lalu menjadi Bank Milik Negara (BUMN). Sebagai perusahaan publik, BNI menyediakan berbagai layanan perbankan untuk perorangan, bisnis, dan korporasi, dengan jaringan luas dan komitmen pada inovasi digital serta pembangunan ekonomi nasional.",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/722585ec-ba98-42f0-bbaf-40649bcfdc97/68dff0ecaab39.jpeg",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-d8672817-222f-40f3-a58d-a30e61c412a4"
+  },
+  {
+    "id": "f4607978-4d1b-453f-9e5f-7c151ac62807",
+    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "Perbankan & Jasa Keuangan",
+    "matched_keyword": "bank negara indonesia",
+    "vacancies": 3,
+    "city": "Kota Tomohon",
+    "address": "Jalan Raya Tomohon",
+    "description": "BNI Kantor Cabang Tomohon (KC Tomohon) adalah salah satu kantor cabang PT Bank Negara Indonesia (Persero) Tbk yang berlokasi strategis di Jl. Raya Tomohon, Kel. Kamasi, Kota Tomohon. Sebagai bank BUMN, BNI Tomohon berfokus pada digitalisasi layanan perbankan, mendukung ekonomi lokal, serta melayani nasabah perorangan, bisnis, dan korporasi dengan standar modern.",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/f4607978-4d1b-453f-9e5f-7c151ac62807/6a913d1e19231.jpeg",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-f4607978-4d1b-453f-9e5f-7c151ac62807"
   },
   {
     "id": "01a0e774-5c6b-7168-8567-f41d640c22c1",
@@ -3978,19 +4056,6 @@
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-686ac4df-c8f7-411d-9d00-6c5fc081815e"
   },
   {
-    "id": "781e39c8-3772-4187-8be7-417b30b1d7c7",
-    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
-    "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "Perbankan & Jasa Keuangan",
-    "matched_keyword": "bank negara indonesia",
-    "vacancies": 3,
-    "city": "Kab. Sidoarjo",
-    "address": "JL. JENGGOLO NO. 47-51",
-    "description": "PT Bank Negara Indonesia (Persero) Tbk, atau biasa disingkat BNI, adalah salah satu Badan Usaha Milik Negara (BUMN) terbesar di Indonesia",
-    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/781e39c8-3772-4187-8be7-417b30b1d7c7/6abcddf79e926.png",
-    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-781e39c8-3772-4187-8be7-417b30b1d7c7"
-  },
-  {
     "id": "7c076d69-b936-485e-bcd0-744ff7a37962",
     "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
     "type": "BUMN Induk (Persero / Perum)",
@@ -4015,19 +4080,6 @@
     "description": "PT Bank Negara Indonesia (Persero) Tbk Kantor Cabang Kuala Tungkal merupakan salah satu jaringan layanan BNI di Kabupaten Tanjung Jabung Barat, Provinsi Jambi. Kantor cabang ini berlokasi di Jl. Merdeka No.45, Tungkal IV Desa, Kec. Tungkal Ilir, Kabupaten Tanjung Jabung Barat, Jambi 36512\nTelepon: (0742) 21946",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/842f8b75-83a0-4786-bae9-418c0ff79d73/68df548f4157e.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-842f8b75-83a0-4786-bae9-418c0ff79d73"
-  },
-  {
-    "id": "902e8379-d65a-41f5-9e08-9c83ebbd0bcb",
-    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
-    "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "Perbankan & Jasa Keuangan",
-    "matched_keyword": "bank negara indonesia",
-    "vacancies": 3,
-    "city": "Kota Makassar",
-    "address": "Jl. Padjonga Dg. Ngalle No. 59 B-C",
-    "description": "$34",
-    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/902e8379-d65a-41f5-9e08-9c83ebbd0bcb/6a47271c803d5.png",
-    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-902e8379-d65a-41f5-9e08-9c83ebbd0bcb"
   },
   {
     "id": "96de3784-6fae-4c22-a72b-733cc8677119",
@@ -4069,19 +4121,6 @@
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-c4c89b0a-b4db-4104-96f7-8bf2797ff79d"
   },
   {
-    "id": "d8672817-222f-40f3-a58d-a30e61c412a4",
-    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
-    "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "Perbankan & Jasa Keuangan",
-    "matched_keyword": "bank negara indonesia",
-    "vacancies": 3,
-    "city": "Kab. Kendal",
-    "address": "JL. Pemuda No.15A",
-    "description": "BNI (PT Bank Negara Indonesia (Persero) Tbk) adalah salah satu bank terbesar di Indonesia yang didirikan pada 5 Juli 1946, awalnya sebagai bank sentral lalu menjadi Bank Milik Negara (BUMN). Sebagai perusahaan publik, BNI menyediakan berbagai layanan perbankan untuk perorangan, bisnis, dan korporasi, dengan jaringan luas dan komitmen pada inovasi digital serta pembangunan ekonomi nasional.",
-    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/722585ec-ba98-42f0-bbaf-40649bcfdc97/68dff0ecaab39.jpeg",
-    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-d8672817-222f-40f3-a58d-a30e61c412a4"
-  },
-  {
     "id": "ed4dc137-587c-45fe-9a4c-2bcc85dd1067",
     "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
     "type": "BUMN Induk (Persero / Perum)",
@@ -4093,19 +4132,6 @@
     "description": "PT Bank Negara Indonesia (Persero) Tbk atau biasa disingkat menjadi BNI, adalah sebuah badan usaha milik negara Indonesia yang bergerak di bidang perbankan konsumen.",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/ed4dc137-587c-45fe-9a4c-2bcc85dd1067/68e49e68df21b.jpg",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-ed4dc137-587c-45fe-9a4c-2bcc85dd1067"
-  },
-  {
-    "id": "f4607978-4d1b-453f-9e5f-7c151ac62807",
-    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
-    "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "Perbankan & Jasa Keuangan",
-    "matched_keyword": "bank negara indonesia",
-    "vacancies": 3,
-    "city": "Kota Tomohon",
-    "address": "Jalan Raya Tomohon",
-    "description": "BNI Kantor Cabang Tomohon (KC Tomohon) adalah salah satu kantor cabang PT Bank Negara Indonesia (Persero) Tbk yang berlokasi strategis di Jl. Raya Tomohon, Kel. Kamasi, Kota Tomohon. Sebagai bank BUMN, BNI Tomohon berfokus pada digitalisasi layanan perbankan, mendukung ekonomi lokal, serta melayani nasabah perorangan, bisnis, dan korporasi dengan standar modern.",
-    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/f4607978-4d1b-453f-9e5f-7c151ac62807/6a913d1e19231.jpeg",
-    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-f4607978-4d1b-453f-9e5f-7c151ac62807"
   },
   {
     "id": "01a13dc2-2702-73a3-a859-7343f358ca20",
@@ -4254,7 +4280,7 @@
     "id": "01a1583b-722e-7002-b3db-9370a5264dfd",
     "name": "Bank Perekonomian Rakyat Tuah Karimun Perseroda",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 2,
     "city": "Kab. Karimun",
@@ -4389,7 +4415,7 @@
     "vacancies": 2,
     "city": "Kota Adm. Jakarta Pusat",
     "address": "Jl. Kebon Sirih No. 51-53",
-    "description": "$32",
+    "description": "$2f",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/cdc5a1c9-8dde-44b7-a2e9-f672082ad1e5/620e2c20db34f.jpeg",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-bank-negara-indonesia-tbk-persero-kantor-cabang-gambir-b9abc7f3-487a-4e59-b09d-1b3b9dcdea3a"
   },
@@ -4397,7 +4423,7 @@
     "id": "019f5fc0-1728-721f-873b-52efc707a78a",
     "name": "PT Cimanggis Cibitung Tollways",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 2,
     "city": "Kota Bekasi",
@@ -4435,7 +4461,7 @@
   {
     "id": "064f9049-4143-4a5e-a721-996ea20c12ae",
     "name": "PT Pegadaian Kantor Wilayah VIII Jakarta 1",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "pegadaian",
     "vacancies": 2,
@@ -4448,7 +4474,7 @@
   {
     "id": "019f3a14-47c1-7058-b591-8885501ed4b6",
     "name": "PT Pegadaian Kantor Wilayah XII Surabaya",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "pegadaian",
     "vacancies": 2,
@@ -4526,7 +4552,7 @@
   {
     "id": "33e90d3f-d176-4f09-896a-efc20e1823a3",
     "name": "PT Telkomsel Branch Sorong",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Telekomunikasi & Digital",
     "matched_keyword": "telkomsel",
     "vacancies": 2,
@@ -4539,7 +4565,7 @@
   {
     "id": "622960c3-998f-4ad0-823b-8354a4cab603",
     "name": "PT Telkomsel Branch Timika",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Telekomunikasi & Digital",
     "matched_keyword": "telkomsel",
     "vacancies": 2,
@@ -4604,7 +4630,7 @@
   {
     "id": "01a1539c-8522-73c8-9ef4-db342ae97da4",
     "name": "PT. Bank Syariah Indonesia.tbk",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "bank syariah indonesia",
     "vacancies": 2,
@@ -4656,7 +4682,7 @@
   {
     "id": "019f6517-4b00-73ee-864b-a70ba5090282",
     "name": "Pelindo Multi Terminal",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Transportasi, Logistik & Aviasi",
     "matched_keyword": "pelindo",
     "vacancies": 2,
@@ -4669,7 +4695,7 @@
   {
     "id": "019f4621-c2bb-738f-af31-b49acf4727c8",
     "name": "Pembangunan Perumahan Nasional",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Infrastruktur, Karya & Semen",
     "matched_keyword": "pembangunan perumahan",
     "vacancies": 2,
@@ -4701,9 +4727,22 @@
     "vacancies": 2,
     "city": "Kota Palembang",
     "address": "Jalan Jendral Sudirman No 132",
-    "description": "$32",
+    "description": "$31",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/0a23d141-a22e-43e3-812f-50c6114d9a4c/68de6d7558846.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-0a23d141-a22e-43e3-812f-50c6114d9a4c"
+  },
+  {
+    "id": "5e63e5a4-749a-4fc6-a47f-846e73c0c6d4",
+    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
+    "type": "BUMN Induk (Persero / Perum)",
+    "cluster": "Perbankan & Jasa Keuangan",
+    "matched_keyword": "bank negara indonesia",
+    "vacancies": 2,
+    "city": "Kota Adm. Jakarta Barat",
+    "address": "Jl. Roa Malaka Selatan No.23-25",
+    "description": "$2f",
+    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/5e63e5a4-749a-4fc6-a47f-846e73c0c6d4/69e5d8d548ce6.jpg",
+    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-5e63e5a4-749a-4fc6-a47f-846e73c0c6d4"
   },
   {
     "id": "08854cca-a1db-478b-9e79-34e4408a6e83",
@@ -4782,19 +4821,6 @@
     "description": "BNI PONTIANAK",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/5c418a61-b393-4b05-af85-015ac9a7b7ee/6ad0af2708255.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-5c418a61-b393-4b05-af85-015ac9a7b7ee"
-  },
-  {
-    "id": "5e63e5a4-749a-4fc6-a47f-846e73c0c6d4",
-    "name": "Perusahaan Perseroan (Persero) Bank Negara Indonesia",
-    "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "Perbankan & Jasa Keuangan",
-    "matched_keyword": "bank negara indonesia",
-    "vacancies": 2,
-    "city": "Kota Adm. Jakarta Barat",
-    "address": "Jl. Roa Malaka Selatan No.23-25",
-    "description": "$33",
-    "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/5e63e5a4-749a-4fc6-a47f-846e73c0c6d4/69e5d8d548ce6.jpg",
-    "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/perusahaan-perseroan-persero-bank-negara-indonesia-5e63e5a4-749a-4fc6-a47f-846e73c0c6d4"
   },
   {
     "id": "a4d644b4-7268-4099-9530-b68ae1c6cf2a",
@@ -4891,7 +4917,7 @@
     "id": "01a16857-d0b1-7209-b74b-eb22cc597592",
     "name": "Perusahaan Perseroan (Persero) PT. Sarana Multigriya Finansial",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 2,
     "city": "Kota Adm. Jakarta Selatan",
@@ -5151,7 +5177,7 @@
     "id": "01a033b0-da62-7120-a2a7-d24daf8aa91b",
     "name": "Bank Perekonomian Rakyat Tugu Artha Sejahtera Kota Malang Perseroda",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 1,
     "city": "Kota Malang",
@@ -5202,7 +5228,7 @@
   {
     "id": "019f591a-04fd-72df-b988-b9786d4f998c",
     "name": "Klinik Bakti Timah Toboali",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Energi, Minyak & Tambang",
     "matched_keyword": "timah",
     "vacancies": 1,
@@ -5215,7 +5241,7 @@
   {
     "id": "eef306ba-ae1d-4971-88ba-cd09f69c92b4",
     "name": "Klinik Pratama Bakti Timah Prayun Kundur",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Energi, Minyak & Tambang",
     "matched_keyword": "timah",
     "vacancies": 1,
@@ -5255,7 +5281,7 @@
     "id": "01a07f34-468e-70db-a8bd-ff601567d908",
     "name": "PERUSAHAAN PERSERO INDONESIA FARMA",
     "type": "BUMN Induk (Persero / Perum)",
-    "cluster": "BUMN Lainnya",
+    "cluster": "BUMN / BUMD Lainnya",
     "matched_keyword": null,
     "vacancies": 1,
     "city": "Kab. Bekasi",
@@ -5566,20 +5592,20 @@
   {
     "id": "01a153e1-db7b-7333-899a-150de56de277",
     "name": "PT. Bank Syariah Indonesia.tbk",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Perbankan & Jasa Keuangan",
     "matched_keyword": "bank syariah indonesia",
     "vacancies": 1,
     "city": "Kota Palu",
     "address": "Jl. Gajah Mada No. 77, Kel. Ujuna, Kec. Palu Barat Kota Palu",
-    "description": "$34",
+    "description": "$2f",
     "logoUrl": "https://wlkp-assets.kemnaker.go.id/companies/ddd943a2-2f14-48a1-a608-f4d9796e89e2/6a926716ceac7.png",
     "url": "https://maganghub.kemnaker.go.id/magang-nasional/penyelenggara/pt-bank-syariah-indonesia-tbk-01a153e1-db7b-7333-899a-150de56de277"
   },
   {
     "id": "019f4116-92e7-72c1-9392-d8f636606d8f",
     "name": "PT. Ramayana Lestari Sentosa Cabang Perumnas Klender (R109)",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Infrastruktur, Karya & Semen",
     "matched_keyword": "perumnas",
     "vacancies": 1,
@@ -5774,7 +5800,7 @@
   {
     "id": "b6d08db8-4260-4c69-9d4c-513372ca51ee",
     "name": "Sinergi Informatika Semen Indonesia (Gresik)",
-    "type": "Anak Perusahaan / Afiliasi BUMN",
+    "type": "BUMN Induk (Persero / Perum)",
     "cluster": "Infrastruktur, Karya & Semen",
     "matched_keyword": "semen indonesia",
     "vacancies": 1,

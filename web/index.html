@@ -66,7 +66,7 @@
       </div>
 
       <div class="flex items-center gap-2">
-        <a href="/api/download/csv" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-md bg-white text-slate-700 border border-slate-300 hover:bg-slate-50 transition">
+        <a href="/data/bumn_maganghub.csv" download="bumn_maganghub_kemnaker.csv" class="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium rounded-md bg-white text-slate-700 border border-slate-300 hover:bg-slate-50 transition">
           <svg class="w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
           </svg>
@@ -296,7 +296,10 @@
 
     async function loadData() {
       try {
-        const resp = await fetch('/api/bumn');
+        let resp = await fetch('/api/bumn');
+        if (!resp.ok) {
+          resp = await fetch('/data/bumn_maganghub.json');
+        }
         if (!resp.ok) throw new Error('Gagal mengambil data BUMN');
         allCompanies = await resp.json();
         
@@ -308,7 +311,7 @@
         document.getElementById('company-grid').innerHTML = `
           <div class="col-span-full p-8 text-center text-rose-600 bg-rose-50 rounded-xl border border-rose-200">
             <p class="font-semibold text-sm">Gagal memuat data dari server.</p>
-            <p class="text-xs text-slate-500 mt-1">Pastikan server app.py sedang aktif.</p>
+            <p class="text-xs text-slate-500 mt-1">Pastikan file data/bumn_maganghub.json tersedia.</p>
           </div>
         `;
       }
@@ -610,11 +613,14 @@
 
       try {
         const resp = await fetch('/api/rescrape', { method: 'POST' });
+        if (!resp.ok) {
+          throw new Error('Fitur sinkronisasi langsung scraper aktif di server lokal (python app.py). Di Vercel, data BUMN telah tersimpan statis untuk performa instan.');
+        }
         const res = await resp.json();
         alert(`Sinkronisasi selesai! Berhasil memperbarui ${res.total_companies} data BUMN.`);
         await loadData();
       } catch (err) {
-        alert('Gagal memperbarui data: ' + err.message);
+        alert(err.message);
       } finally {
         btn.disabled = false;
         icon.classList.remove('animate-spin');
